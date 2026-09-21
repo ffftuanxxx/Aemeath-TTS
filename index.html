@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="一个独立的 GitHub Pages 测试页，支持按钮交互与音频播放。">
+  <title>GitHub Pages · 测试页</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; color: #17233a; background: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(960px, calc(100% - 40px)); margin: 0 auto; padding: 38px 0 32px; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 56px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 650; }
+    .logo { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px; color: white; background: #3157d5; font: 700 15px monospace; }
+    .tag { color: #637087; font-size: 12px; letter-spacing: .08em; }
+    .hero { position: relative; overflow: hidden; padding: 48px; background: white; border: 1px solid #e2e7f0; border-radius: 24px; }
+    .eyebrow { margin: 0 0 20px; color: #3157d5; font-size: 12px; font-weight: 700; letter-spacing: .18em; }
+    h1 { margin: 0; font-size: clamp(40px, 7.5vw, 72px); line-height: 1.08; letter-spacing: -.045em; font-weight: 750; }
+    h1 span { color: #3157d5; }
+    .intro { max-width: 540px; margin: 24px 0; color: #637087; font-size: 15px; line-height: 1.9; }
+    .status { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px; color: #176c4b; background: #eaf7f0; font-size: 13px; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: #26966b; }
+    .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; }
+    .card { min-width: 0; padding: 28px; border: 1px solid #e2e7f0; border-radius: 20px; background: white; }
+    .number { color: #78849a; font: 12px monospace; }
+    h2 { margin: 14px 0 10px; font-size: 20px; letter-spacing: -.03em; }
+    .card p { margin: 0 0 22px; color: #637087; font-size: 14px; line-height: 1.8; }
+    button { border: 0; border-radius: 10px; padding: 13px 20px; color: white; background: #3157d5; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+    button:hover { background: #2446b8; }
+    button:active { transform: translateY(1px); }
+    button:focus-visible { outline: 3px solid #90a8fa; outline-offset: 4px; }
+    .result { display: block; min-height: 22px; margin-top: 14px; color: #637087; font-size: 13px; }
+    audio { display: block; width: 100%; height: 44px; margin-top: 4px; }
+    .address { margin-top: 20px; padding: 20px 24px; border: 1px dashed #cbd4e3; border-radius: 14px; }
+    .address-label { color: #637087; font-size: 12px; }
+    .address code { display: block; margin-top: 8px; color: #35496c; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+    footer { display: flex; justify-content: space-between; gap: 16px; padding-top: 24px; color: #78849a; font-size: 12px; line-height: 1.7; }
+    noscript { display: block; margin-top: 20px; padding: 16px; background: #fff1cd; border-radius: 12px; line-height: 1.7; }
+    @media (max-width: 600px) {
+      main { width: calc(100% - 32px); padding-top: 24px; }
+      header { margin-bottom: 28px; }
+      .tag { font-size: 10px; letter-spacing: .03em; }
+      .hero { padding: 32px 24px; border-radius: 20px; }
+      .cards { grid-template-columns: 1fr; }
+      .card { padding: 24px; }
+      footer { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><span class="logo" aria-hidden="true">&lt;/&gt;</span> My Demo Page</div>
+      <span class="tag">GITHUB PAGES / TEST 001</span>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">HELLO, WORLD</p>
+      <h1 id="page-title">Hello,<br><span>GitHub Pages.</span></h1>
+      <p class="intro">如果你能看到这个页面，说明 HTML 已正常加载。试试下方的按钮和音频，检查网页交互与播放是否正常。</p>
+      <div class="status"><span class="dot" aria-hidden="true"></span>页面已加载</div>
+    </section>
+
+    <noscript>你的浏览器未启用 JavaScript。页面可以显示，但按钮交互和内置测试音频需要启用 JavaScript。</noscript>
+
+    <div class="cards">
+      <section class="card" aria-labelledby="interaction-title">
+        <span class="number">01 / INTERACTION</span>
+        <h2 id="interaction-title">按钮交互</h2>
+        <p>点击按钮，检查 JavaScript 是否正常运行。</p>
+        <button id="test-button" type="button">点我测试一下</button>
+        <output class="result" id="click-result" aria-live="polite">等待点击……</output>
+      </section>
+
+      <section class="card" aria-labelledby="audio-title">
+        <span class="number">02 / AUDIO</span>
+        <h2 id="audio-title">音频播放</h2>
+        <p>点击播放，试听内置的 1 秒测试提示音。</p>
+        <audio id="test-audio" controls preload="metadata" aria-label="测试提示音播放器">你的浏览器不支持音频播放。</audio>
+        <output class="result" id="audio-result" aria-live="polite">正在准备测试音频……</output>
+      </section>
+    </div>
+
+    <div class="address">
+      <span class="address-label">当前页面地址</span>
+      <code id="page-address">等待 JavaScript 读取……</code>
+    </div>
+    <footer>
+      <span>一个 HTML 文件 · 无外部依赖</span>
+      <span id="runtime-status">JavaScript 等待运行</span>
+    </footer>
+  </main>
+
+  <script>
+    "use strict";
+
+    document.getElementById("page-address").textContent = window.location.href;
+    document.getElementById("runtime-status").textContent = "JavaScript 已就绪";
+
+    let clicks = 0;
+    document.getElementById("test-button").addEventListener("click", function () {
+      clicks += 1;
+      document.getElementById("click-result").textContent = "点击成功！已点击 " + clicks + " 次。";
+    });
+
+    // 在浏览器内生成一段 WAV 提示音，单个 HTML 文件即可测试音频播放。
+    const player = document.getElementById("test-audio");
+    const audioResult = document.getElementById("audio-result");
+    try {
+      const sampleRate = 16000;
+      const samples = sampleRate;
+      const buffer = new ArrayBuffer(44 + samples * 2);
+      const view = new DataView(buffer);
+      function writeText(offset, text) {
+        for (let i = 0; i < text.length; i += 1) view.setUint8(offset + i, text.charCodeAt(i));
+      }
+      writeText(0, "RIFF");
+      view.setUint32(4, 36 + samples * 2, true);
+      writeText(8, "WAVE");
+      writeText(12, "fmt ");
+      view.setUint32(16, 16, true);
+      view.setUint16(20, 1, true);
+      view.setUint16(22, 1, true);
+      view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * 2, true);
+      view.setUint16(32, 2, true);
+      view.setUint16(34, 16, true);
+      writeText(36, "data");
+      view.setUint32(40, samples * 2, true);
+      for (let i = 0; i < samples; i += 1) {
+        const time = i / sampleRate;
+        const envelope = Math.min(time / 0.02, 1) * Math.exp(-4 * time) * Math.min((1 - time) / 0.04, 1);
+        const tone = 0.65 * Math.sin(2 * Math.PI * 523.25 * time) + 0.35 * Math.sin(2 * Math.PI * 659.25 * time);
+        view.setInt16(44 + i * 2, Math.round(tone * envelope * 0.3 * 32767), true);
+      }
+      const audioUrl = URL.createObjectURL(new Blob([buffer], { type: "audio/wav" }));
+      player.src = audioUrl;
+      audioResult.textContent = "提示音已就绪，点击播放。";
+      player.addEventListener("playing", function () { audioResult.textContent = "正在播放测试提示音……"; });
+      player.addEventListener("pause", function () {
+        if (!player.ended) audioResult.textContent = "播放已暂停，可以继续播放。";
+      });
+      player.addEventListener("ended", function () { audioResult.textContent = "播放完成，可以再次播放。"; });
+      player.addEventListener("error", function () { audioResult.textContent = "音频播放失败，请尝试其他浏览器。"; });
+    } catch (error) {
+      audioResult.textContent = "无法准备测试音频，请尝试其他浏览器。";
+    }
+  </script>
+</body>
+</html>
