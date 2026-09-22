@@ -7,14 +7,16 @@
 .case-sidebar{min-width:0}.case-list{max-width:100%}.text-card pre{font-size:12px}.text-card p{font-size:14px}.transcript p{font-size:13px}
 @media(max-width:800px){.browser{grid-template-columns:minmax(0,1fr)}}
 
-/* Paper authors sit below the title and wrap naturally on narrow screens. */
-.author-info{margin:0 0 24px}
-.author-list,.author-affiliations{display:flex;flex-wrap:wrap;padding:0;list-style:none}
-.author-list{gap:4px 16px;margin:0 0 8px;font-size:15px;line-height:1.7}
-.author-list li{white-space:nowrap}
-.author-info sup{font-size:10px;color:var(--teal)}
-.author-list sup{margin-left:2px}
-.author-affiliations{gap:2px 14px;margin:0;color:var(--muted);font-size:12px;line-height:1.8}
-.author-affiliations sup{margin-right:4px}
-@media(max-width:800px){.author-list{gap:3px 13px;font-size:14px}.author-affiliations{font-size:11px}}
-@media(max-width:540px){.author-info{margin-bottom:20px}.author-list{gap:3px 14px}}
+/* A full-width, two-line byline: authors first, affiliations second. */
+.hero{row-gap:40px;padding-bottom:42px}
+.author-info{grid-column:1/-1;min-width:0;overflow-x:auto;padding:8px 0;scrollbar-width:thin;scrollbar-color:#c3d2c6 transparent}
+.author-info:focus-visible{outline:2px solid var(--teal);outline-offset:5px;border-radius:4px}
+.author-byline{width:max-content;min-width:100%;padding:0 3px;text-align:center}
+.author-list,.author-affiliations{display:flex;justify-content:center;align-items:baseline;flex-wrap:nowrap;padding:0;list-style:none;white-space:nowrap}
+.author-list{gap:clamp(18px,2vw,30px);margin:0 0 11px;color:var(--ink);font-size:17px;font-weight:500;line-height:1.6}
+.author-info sup{position:relative;top:-.1em;color:var(--teal);font-size:10px;font-weight:500;line-height:0}
+.author-list sup{margin-left:3px}
+.author-affiliations{gap:26px;margin:0;color:var(--muted);font-size:13px;line-height:1.8}
+.author-affiliations sup{margin-right:5px}
+@media(max-width:800px){.hero{row-gap:28px;padding-bottom:30px}.author-list{gap:18px;font-size:15px}.author-affiliations{gap:20px;font-size:12px}}
+@media(max-width:540px){.author-info{margin-top:28px;padding-bottom:12px;mask-image:linear-gradient(to right,#000 calc(100% - 18px),transparent)}.author-byline{padding-right:24px}.author-list,.author-affiliations{justify-content:flex-start}.author-list{gap:18px;font-size:14px}.author-affiliations{gap:18px;font-size:12px}}

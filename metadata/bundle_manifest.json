@@ -745,8 +745,8 @@
       "sha256": "4224307e952b33a8c09c805c63e606b3c1f535bc8190844735a1311036bf62b8"
     },
     "index.html": {
-      "bytes": 9487,
-      "sha256": "3da54a732bdff3c0cd98025af814c44d75d31187a1184cdf6646262cf14dfcff"
+      "bytes": 9579,
+      "sha256": "10d3f25ac6a925ed53f88469de9e95c8a9029517f6819a859953c93eb6b47430"
     },
     "listening.json": {
       "bytes": 88951,
@@ -765,8 +765,8 @@
       "sha256": "fd4f3197c1646e02906b41c8e9d8687b389f3564995e6fecbcba8c147a78727c"
     },
     "styles.css": {
-      "bytes": 18320,
-      "sha256": "4661e5c54c58c5368d641138cdf681d0e6fa97544a5eb0868f5fa43e6bfd672f"
+      "bytes": 19044,
+      "sha256": "044c2213a506bb0104c8df827e8fb72beb49e8352bbbefa22d71d3d35c00ce88"
     }
   }
 }
