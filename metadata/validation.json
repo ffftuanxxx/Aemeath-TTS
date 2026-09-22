@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "cases": 20,
+  "system_cases": 12,
+  "ablation_cases": 8,
+  "wav_files": 180,
+  "audio_bytes": 190109340,
+  "all_audio_hashes_verified": true,
+  "all_cer_values_match_cached_counts": true,
+  "featured_CER_zero_in_all_cases": true,
+  "max_featured_internal_quiet_seconds": 1.1,
+  "offline_file_url_passed": true,
+  "external_requests": [],
+  "page_errors": [],
+  "desktop_viewport": [
+    1440,
+    1050
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "no_horizontal_overflow": true,
+  "all_20_cases_navigated": true,
+  "six_backend_playbacks_passed": [
+    "polestar",
+    "index_tn",
+    "cosy",
+    "vox",
+    "fire",
+    "xtts"
+  ],
+  "ab_sequence_and_exclusive_playback_passed": true,
+  "search_transcripts_expansion_passed": true,
+  "browser": "153.0.8010.12",
+  "human_audio_listening": "not claimed; selection uses existing ASR and bounded signal checks",
+  "family_cer_hidden": true,
+  "requested_faq_removed": true,
+  "selection_note_removed": true,
+  "footer_cleaned": true,
+  "system_ab_default": "index_tn"
+}

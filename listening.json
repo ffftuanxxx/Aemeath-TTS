@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "3584",
+    "section": "systems",
+    "title": "A formula, read aloud",
+    "input": "1. **确定总方格数** \n 图形为4行12列，共 $4 \\\\times 12 = 48$ 个方格。",
+    "reference": "一、确定总方格数.\n图形为四行十二列.\n共四乘[以]十二等于四十八个方格.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "一、确定总方格数，图形为四行十二列，共四乘十二等于四十八个方格。",
+        "wav": "audio/03584__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "一、确定总方格数，图形为四行十二列，共四乘以十二等于四十八个方格。",
+        "wav": "audio/03584__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "一、确定总方格数，图形为四行十二列，共四乘十二等于四十八个方格。",
+        "wav": "audio/03584__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "一、确定总方格数，图形为四行十二列，共四乘以十二等于四十八个方格。",
+        "wav": "audio/03584__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "一、确定总方格数。每元图形为四行十二列，共四表列，共整四十八个方格。",
+        "wav": "audio/03584__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "伊泰确定总方格数的图形为四行十二列，共四美元 times 十二等于四十八个方格。",
+        "wav": "audio/03584__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "串辍确定总方格数，串图形为串行处列，共串次times串个方格。",
+        "wav": "audio/03584__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "以确定总方格数，图形为四行十二列，共四美元 times 十二等于四十八个方格。",
+        "wav": "audio/03584__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "idea asterisk确定总方格数，图形为四行十二列，共四 times 十二等四 three 倍。",
+        "wav": "audio/03584__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "一、确定总方格数，图形为四行十二列，共四美元 times 十二等于四十八个方格。",
+        "wav": "audio/03584__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "一、确定总方格数，图形为四行十二列，共四 times 十二，四十八个方格。",
+        "wav": "audio/03584__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "section": "systems",
+    "title": "A pricing table becomes speech",
+    "input": "| **个人进阶版 (PRO)** | 39元/月 | 提供更多积分额度和云服务资源 |\n| **个人高级版 (MAX)** | 89元/月 | 提供更高的积分额度和更丰富的服务 |\n\n**请注意**：PRO 版和 MAX 版的价格为限时折扣，后续价格将分别调整为 89 元/月和 199 元/月。",
+    "reference": "个人进阶版，Pro，三十九元每月，提供更多积分额度和云服务资源。个人高级版，Max，八十九元每月，提供更高的积分额度和更丰富的服务。请注意：Pro 版和 Max 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 Max 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO 版和 MAX 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 Max 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO 版和 Max 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 Max 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO 版和 Max 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 Max 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO 版和 Max 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "个人进阶版 PRO 小番是三十九元，提供更多积分额度和云服务资源。个人高级版 MX 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO 版和 MX 版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "台宽载个人进阶版 Pro 版，每月三十九元囤，提供更多积分额度和云服务资源。全台宽载个人高级版 Max 版载包，每月八十九元囤，提供更高的积分额度和更丰富的服务。请注意，Pro 版和 Max 版的价格为限时折扣，后续价格将分别调整为每月八十九元和每月一百九十九元。",
+        "wav": "audio/00010__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "拆个人进阶版尊 Pro 拆管原传月，提供更多积分额度和云服务资源。纯团端赔个人高级版尊牌尊院，提供更高的积分额度和更丰富的服务。请注意，Tra Pro 版和 Max 版的价格为限时折扣，后续价格将分别调整为 Tra 原传月和 Tra 原传月。",
+        "wav": "audio/00010__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "阿什塔阿什切个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 MAX 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO版和MAX版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
+        "wav": "audio/00010__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "Deskic个人进阶版每月三十九元，提供更多积分额度和云服务资源。个人高级版每月三十九元，提供更高的积分额度和更丰富的服务。请注意，Pro版和Max版的价格为限时折扣，后续价格将分别调整为每月三十九元和一百九十九元。",
+        "wav": "audio/00010__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "个人进阶版 The Pro 满月三十九元，提供更多积分额度和云服务资源。个人高级版 The Max 满月八十九元，提供更高的积分额度和更丰富的服务。请注意，Pro 版和 Max 版的价格为限时折扣，后续价格将分别调整为每月八十九元和每月一百九十九元。",
+        "wav": "audio/00010__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "个人进阶版 Pro 三十九元月，提供更多积分额度和云服务资源；个人高级版 Max 八十九元月，提供更高的积分额度和更丰富的服务。请注意，Pro 版和 Max 版的价格为限时折扣，后续价格将分别调整为八十九元月和一百九十九元月。卧槽！",
+        "wav": "audio/00010__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "7775",
+    "section": "systems",
+    "title": "Yuan, cents, and decimals",
+    "input": "1. 统一单位： 为了方便用小数计算，我们可以将所有的金额单位统一换算成“元”。\n2. 换算左边的数： 9text{元零}7text{分}。因为 1text{元} = 100text{分}，所以 7text{分} = 0.07text{元}。",
+    "reference": "一、统一单位,为了方便用小数计算.\n我们可以将所有的金额单位统一换算成\"元\".\n二、换算左边的数,九元零七分.因为一元等于一百分,所以七分等于零点零七元.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "一、统一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九元零七分。因为一元等于一百分，所以七分等于零点零七元。",
+        "wav": "audio/07775__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "一、统一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九元零七分，因为一元等于一百分，所以七分等于零点零七元。",
+        "wav": "audio/07775__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "一、统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九元零七分，因为一元等于一百分，所以七分等于零点零七元。",
+        "wav": "audio/07775__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "一、统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九元零七分，因为一元等于一百分，所以七分等于零点零七元。",
+        "wav": "audio/07775__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "一、统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九text元零七text分，因为一text元等于一百text分，所以七text分等于零点零七text元。",
+        "wav": "audio/07775__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "一、统一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九text元零块七text分块，因为一text的元串一百text的分分，所以七text的分块零点零七text的元。",
+        "wav": "audio/07775__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "统一单位对，为了方便用小数计算，我们可以将所有的金额单位统一换算成注元、段款。换算左边的数，trax的元、零、two text分谱音，因为trax的元、two text分谱着，所以零text部分谱text的元度主稳定。",
+        "wav": "audio/07775__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "一统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二换算左边的数，九 text 元零七 text 分，因为一 text 元等于一百 text 分，所以七 text 分等于零点零七 text 元。",
+        "wav": "audio/07775__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "一、统一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九text元零七text分，因为一text元等于一百text分，所以七text分等于零点零七text元。",
+        "wav": "audio/07775__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "一，Z一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二，算算左边的数，九text元，零七text分。因为一text元一百text分，所以七text分，零点零七text元。",
+        "wav": "audio/07775__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "一统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二换算左边的数，九text元零七text分，元零七text分，因为一text元一百text分，所以七text分零点零七text元。",
+        "wav": "audio/07775__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "8914",
+    "section": "systems",
+    "title": "Every row, every unit",
+    "input": "| | | |\n| **快走** | 速度约 5-6 km/h，身体微热 | **60 - 70 分钟** |\n| **慢跑** | 速度约 8 km/h，可以说话但微喘 | **35 - 45 分钟** |\n| **跳绳** | 中速，约 100-120 次/分 | **25 - 30 分钟** |\n| **游泳** | 自由泳或蛙泳，中等速度 | **30 - 40 分钟** |\n| **骑自行车** | 休闲骑行，速度约 15-20 km/h | **50 - 60 分钟** |\n\n",
+    "reference": "快走.速度约五到六千米每小时.\n身体微热,六十到七十分钟.\n慢跑,速度约八千米每小时,可以说话但微喘,三十五到四十五分钟.\n跳绳,中速,约一百到一百二十次每分,二十五到三十分钟.\n游泳,自由泳或蛙泳,中等速度,三十到四十分钟.\n骑自行车 、休闲骑行.\n速度约十五到二十千米每小时,五十到六十分钟.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "快走速度约五到六千米每小时，身体微热，六十到七十分钟。慢跑速度约八千米每小时，可以说话，但微喘，三十五到四十五分钟。跳绳中速，约一百到一百二十次每分，二十五到三十分钟。游泳，自由泳或蛙泳，中等速度，三十到四十分钟。骑自行车，休闲骑行，速度约十五到二十千米每小时，五十到六十分钟。",
+        "wav": "audio/08914__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "快走，速度约五到六千米每小时，身体微热，六十到七十分钟。慢跑，速度约八千米每小时，可以说话但微喘，三十五到四十五分钟。跳绳中速约一百到一百二十次每分，二十五到三十分钟。游泳，自由泳或蛙泳，中等速度，三十到四十分钟。骑自行车，休闲骑行，速度约十五到二十千米每小时，五十到六十分钟。",
+        "wav": "audio/08914__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "快走，速度约五到六千米每小时，身体微热，六十到七十分钟。慢跑，速度约八千米每小时，可以说话，但微喘，三十五到四十五分钟。跳绳，中速约一百到一百二十次每分，二十五到三十分钟。游泳，自由泳或蛙泳，中等速度三十到四十分钟。骑自行车休闲骑行，速度约十五到二十千米每小时，五十到六十分钟。",
+        "wav": "audio/08914__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "快走，速度约五到六千米每小时，身体微热，六十到七十分钟。慢跑，速度约八千米每小时，可以说话但微喘，三十五到四十五分钟。跳绳中速约一百到一百二十次每分，二十五到三十分钟。游泳，自由泳或蛙泳，中等速度，三十到四十分钟。骑自行车，休闲骑行，速度约十五到二十千米每小时，五十到六十分钟。",
+        "wav": "audio/08914__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "撅盖走速度约五点六千米每小时，身体微热，屌六十减七十分钟。秒慢慢跑速度约八千米每小时，可以说话但微喘，屌三十五减四十五分钟。屌跳绳屌中速，约一百到一百二十次每分，屌二十五减三十分钟。屌跳绳屌中速，约一百到一百二十次每分，屌二十五减三十分钟。屌跳游泳屌自由泳或蛙泳，中等速度屌屌三十减四十分钟。屌驾骑自行车屌休闲骑行，速度约十五屌二十千米每小时，屌屌五十减六十分钟。屌屌",
+        "wav": "audio/08914__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "滩川穿快走，穿速度约每小时五到六公里，身体微热，穿六十减七十分钟。穿穿跑慢跑，穿速度约每小时八公里，可以说话，但微喘。三十五减四十五分钟，穿穿跳绳，穿中速，约一百减一百二十次。快分穿二十五减三十分钟，滩川端游泳或蛙泳，自由泳或蛙泳，中等速度追穿三十减四十分钟，追松追自行车追险骑行，速度约每小时十五到二十公里，追五十减六十分钟，追分钟，追香五十分钟。",
+        "wav": "audio/08914__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "喘喘喘，快走最速度约喘 d k m h，身体微热，退退分钟，快百慢跑，肺速度约快 m h。可以说话，但微喘喘讨分钟，喘端讨。跳绳转中速，约踹次转分转中转短，游泳转自由泳或蛙泳，中等速度，中动转动转笨中转的骑自行车，转团休闲骑行，速度约踹 k m h，踹分钟，踹分钟。",
+        "wav": "audio/08914__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "S S S S 快走速度约五到六卡米 S S 身体微热，六十七十分钟。闲慢跑速度约八卡米 S，可以说话但微喘，三十五到四十五分钟。一闲是，去闲中速约一百至一百二十次，每分二十五到三十分钟。游泳自由泳或蛙泳，中等速度。骑自行车休闲骑行，速度约三十至二十分钟。骑自行车休闲骑行，速度约十五三十至四十分钟。骑自行车休闲骑行，无骑自行车休闲骑行速度约十五至二十行进 S 行二十至",
+        "wav": "audio/08914__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "开走，用尼根速度约五减六kilometer/小时位移，身体微热，六十五减七十分钟。五省的慢跑的呼吸，速度约八尼德等速物体，可以说话但微喘，三十五减四十五分钟。呼绳跳绳走中中速，约一百讲一百二十次分，二十五减三十分钟。呼绳的游泳或蛙泳，中等速度，三十减四十分钟。呼绳骑自行车，休闲骑行，速度约一十五讲六十kilometer/小时，跳六可十分钟。",
+        "wav": "audio/08914__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "快走，速度约每小时五到六公里，身体微热。六十减七零分钟慢跑，速度约每小时八公里，可以说话但微喘。三十五减四五分钟跳绳，中速，约一百减一百二十次分。二十五减三零分钟游泳，自游泳或蛙泳，中等速度。三十减四零分钟骑自行车，休闲骑行，速度约每小时十五到二十公里。五十减六零分钟。",
+        "wav": "audio/08914__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "快走，速度约五六 km/h，身体微热，六十七十分钟。慢跑，速度约八 km/h，可以说话但微喘，三十五四十五分钟。跳绳，中速约一百一百二十次，分二十五三十分钟。游泳，自由泳或蛙泳，中等速度，三十四十分钟。骑自行车，休闲骑行，速度约十五二十 km/h，五十六十分钟。",
+        "wav": "audio/08914__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "5251",
+    "section": "systems",
+    "title": "A range inside a list",
+    "input": "主要看你准备用多大的地方来种。给你几个常见的种植场景参考一下：\n\n **如果是花盆/阳台盆栽：**\n* **普通花盆（直径20-30厘米）：** 建议 **1棵**。",
+    "reference": "主要看你准备用多大的地方来种.\n给你几个常见的种植场景参考一下.\n如果是花盆[或|、]阳台盆栽.\n普通花盆、直径二十到三十厘米,建议一棵.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆或阳台盆栽，普通花盆直径二十到三十厘米，建议一棵。",
+        "wav": "audio/05251__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽、普通花盆，直径二十到三十厘米，建议一棵。",
+        "wav": "audio/05251__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽、普通花盆，直径二十到三十厘米，建议一棵。",
+        "wav": "audio/05251__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆或阳台盆栽，普通花盆直径二十到三十厘米，建议一棵。",
+        "wav": "audio/05251__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽，普通花盆直径二十到三十厘米，建一个建一棵一棵。",
+        "wav": "audio/05251__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。十周如果是花盆这阳台盆栽，只有普通花盆直径二十到三十厘米，A建议选一棵追懒。",
+        "wav": "audio/05251__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "主要看你准备用多大的地方来种花，给你几个常见的种植场景参考一下。图文多，如果是花盆、左阳台、盆栽砖，普通花盆左直径减七 cm，cm，建议带颗碎。",
+        "wav": "audio/05251__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆或阳台盆栽，普通花盆直径二十到三十厘米，建议一颗。",
+        "wav": "audio/05251__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽、普通花盆，直径二十减三十厘米，建议一棵。",
+        "wav": "audio/05251__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽，普通花盆直径二十到三十厘米，单一一颗。",
+        "wav": "audio/05251__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽、普通花盆，直径二十、三十厘米，建议一颗一颗。",
+        "wav": "audio/05251__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "9518",
+    "section": "systems",
+    "title": "Temperature thresholds",
+    "input": "简单来说：如果夜间气温低于 **15℃**，**必须**覆盖；如果气温稳定在 **18℃-20℃** 以上，则**不需要**覆盖，甚至覆盖反而有害。\n\n以下是详细的判断标准和操作建议：\n\n### ️ 什么时候需要覆盖（保温）？\n\n黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，**一定要盖**：\n\n",
+    "reference": "简单来说,如果夜间气温低于十五摄氏度.\n必须覆盖;如果气温稳定在十八摄氏度到二十摄氏度以上,则不需要覆盖,甚至覆盖反而有害.\n以下是详细的判断标准和操作建议.\n什么时候需要覆盖、保温?\n黄瓜是典型的喜温作物,非常怕冷.\n如果你的种植环境符合以下情况,一定要盖.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度到二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议。什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度到二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议。什么时候需要覆盖？保温。黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度到二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议，什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度到二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议。什么时候需要覆盖？保温。黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，一必须覆盖；如果气温稳定在十八摄氏度二十摄氏度以上，则必须要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议：什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "简单来说，如果夜间气温低于零下十五摄氏度，leg必须追覆盖；如果气温稳定在零十八摄氏度到二十摄氏度零以上，则追不需要覆覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议：皮柄什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况时，一定要盖灵芝。",
+        "wav": "audio/09518__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "简单来说，这如果夜间气温低于 C 档，必须做覆盖；如果气温稳定在 the C C 以上，则做不需要做覆盖。甚至覆盖反而有害。桌以下，是详细的判断标准和操作建议。众多桌什么时候需要覆盖砖保温 for 黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖吃。",
+        "wav": "audio/09518__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度至二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议。井井井什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，物必须覆盖；如果气温稳定在十八摄氏度及二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议，什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度到二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议：什么时候需要覆盖保温？南瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
+        "wav": "audio/09518__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "简单来说，如果夜间气温低于十五，必须覆盖；如果气温稳定在十八、二十以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议，什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖，要认真。",
+        "wav": "audio/09518__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "5741",
+    "section": "systems",
+    "title": "Dates in context",
+    "input": "* **注意大风**：4月23日和27日虽然是大晴天，但风力较大，尤其是27日风力可能达到4-5级，外出请注意防风。\n* **防晒**：晴天紫外线较强，出门记得做好防晒措施。",
+    "reference": "注意大风,四月二十三日和二十七日虽然是大晴天.\n但风力较大,尤其是二十七日风力可能达到四到五级,外出请注意防风.\n防晒,晴天紫外线较强,出门记得做好防晒措施.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四到五级，外出请注意防风、防晒。晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日，风力可能达到四到五级，外出请注意防风、防晒。晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四到五级。外出请注意防风、防晒，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四到五级，外出请注意防风、防晒。晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四到五级，外出请注意防风。注意防晒，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "台青注意大风！台四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四减五级。外出请注意防风。在防晒时，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "参采注意大风，穿越日和穿日虽然是大晴天，但风力较大，尤其是台日风力可能达到串级。外出请注意防风、穿穿台防晒。虽晴天，紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日，风力可能达到四到五级。外出请注意防风，好防晒，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "这日灭大风，发四月二十三日和二十七日，虽然是大晴天，但风力较大，尤其是二十七日，风力可能达到四减五级，外出请注意防风、防晒。晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四减五级。外出请注意防风、防晒，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日风力可能达到四五级，外出请注意防风防晒，晴天紫外线较强，出门记得做好防晒措施。",
+        "wav": "audio/05741__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "7352",
+    "section": "systems",
+    "title": "Two time ranges",
+    "input": "这取决于你的头发长度、发量以及你是否自己操作。\n- **短发/发量少：** 约 15-20 分钟。\n- **长发/发量多：** 约 30-45 分钟。\n- **建议：** 如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。\n\n#### 2.",
+    "reference": "这取决于你的头发长度、发量以及你是否自己操作.\n短发或发量少,约十五到二十分钟.\n长发或发量多,约三十到四十五分钟.\n建议,如果是自己染发,动作要快且均匀,避免先涂的部分和后涂的部分等待时间差距过大,导致颜色不均.\n二.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发或发量多，约三十到四十五分钟。建议如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
+        "wav": "audio/07352__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发或发量多，约三十到四十五分钟。建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
+        "wav": "audio/07352__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发或发量多，约三十到四十五分钟。建议如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二。",
+        "wav": "audio/07352__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发或发量多，约三十到四十五分钟。建议如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
+        "wav": "audio/07352__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发发量少，约十五到二十分钟；长长发发量多，约三十到四十五分钟。建建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
+        "wav": "audio/07352__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。吹短发，吹发量少，吹约十五到二十分钟；吹长发，吹发量多，吹约三十到四十五分钟。崔建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。崔灰二。",
+        "wav": "audio/07352__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "这取决于你的头发长度、染发量，以及你是否自己操作。染段短发、脱发量少，爽约段分钟等；长发、脏发量多，讲发量多，倒约百分分钟。虽建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均匀、圈圈拼。",
+        "wav": "audio/07352__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发发量多，约三十到四十五分钟。建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。就剪、设剪、精剪二。",
+        "wav": "audio/07352__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。傅师短发量少，约十五-二十分钟；傅师长发发量多，约三十-四十五分钟。傅师师建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
+        "wav": "audio/07352__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。长发发量少，害十五到二十分钟；害发发量多，害三十到四十五分钟。建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二。",
+        "wav": "audio/07352__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发发量少，约十五二十分钟；长发发量多，约三十四十五分钟。长发发量多，约三十四十五分钟。建议如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二。",
+        "wav": "audio/07352__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "8877",
+    "section": "systems",
+    "title": "Numbers meet product names",
+    "input": "* **高效充电**：20分钟可为iPhone充至50%，效率高。\n * **安全可靠**：通过新国标测试，采用苹果原厂电芯和智能盾安全系统。\n * **容量适中**：10000mAh容量足够一天使用，便携性好。\n* **价格区间**：约199元。\n\n\n### 3. 日常通勤与高性价比：小米 自带线充电宝\n",
+    "reference": "高效充电,二十分钟可为I Phone充至百分之五十.\n效率高.\n安全可靠,通过新国标测试,采用苹果原厂电芯和智能盾安全系统.\n容量适中,一万毫安时容量足够一天使用,便携性好.\n价格区间,约一百九十九元.\n三、日常通勤与高性价比,小米自带线充电宝.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试。采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "秀零高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，受容量适中，一百毫升容量足够一天使用，便携性好，秀零价格区间约一百九十九元。正三日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "特浅高效充电，圈待二十分钟可为iPhone充至百分之五十，效率高，特浅可靠，多百通过新国标测试，采用苹果原厂电芯和智能盾安全系统，钛材容量适中，十一万米Ah容量足够一天使用，便携性好，派价格区间大，文约一百九十九元，缓三日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "这款高效充电，追分钟可为iPhone充至再债，效率高，全排安全可靠，已通过新国标测试。采用苹果原厂电芯和智能盾安全系统，栅塔容量适中，八美池容量足够一天使用，便携信号长跑，价格区间，炸冤染方款，日常通勤与高性价比追小米自带线充电宝。",
+        "wav": "audio/08877__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "S S S S S S S S S S 高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时，容量足够一天使用，便携性好，价格区间约一百九十九元，仅仅仅三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "高高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "高效充电，二十分钟可为iPhone充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万mAh容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "高效充电，二十分钟可为 iPhone 内充值百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一零零零毫容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤高性价比，小米自带线充电宝。",
+        "wav": "audio/08877__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "5074",
+    "section": "systems",
+    "title": "Symbols in an instruction",
+    "input": "为了方便视障人士，手机系统默认设置了一个组合键（通常是音量键），一旦误触，系统就会认为你需要开启辅助功能。\n\n* **华为/荣耀**：通常是同时按住**音量上键+音量下键** 3秒。\n",
+    "reference": "为了方便视障人士,手机系统默认设置了一个组合键、通常是音量键.\n一旦误触,系统就会认为你需要开启辅助功能.\n华为[和|或]荣耀,通常是同时按住音量上键加音量下键三秒.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为或荣耀，通常是同时按住音量上键加音量下键三秒。",
+        "wav": "audio/05074__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为或荣耀通常是同时按住音量上键加音量下键三秒。",
+        "wav": "audio/05074__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为或荣耀，通常是同时按住音量上键加音量下键三秒。",
+        "wav": "audio/05074__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为或荣耀，通常是同时按住音量上键加音量下键三秒。",
+        "wav": "audio/05074__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀下D通常是同时按住下音音量上键加音量下键三秒。",
+        "wav": "audio/05074__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。开寸，华为及荣耀通常是同时按住缺音量上键、缺音量下键，居三秒。",
+        "wav": "audio/05074__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。踩一旦误触，系统就会认为你需要开启辅助功能。宽腿华为错荣耀是，通常是同时按住拖音量上键和音量下键，拖音量下键拖秒。",
+        "wav": "audio/05074__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀，通常是同时按住音量上键加音量下键下键三秒。",
+        "wav": "audio/05074__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀通常是同时按住音量上键、加音量下键三秒。",
+        "wav": "audio/05074__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀通常是同时按住音量上键、音量下键三秒。",
+        "wav": "audio/05074__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀通常是同时按住音量上键、音量下键三秒。",
+        "wav": "audio/05074__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "6014",
+    "section": "systems",
+    "title": "Chinese and English, together",
+    "input": "迈克尔·杰克逊的财富构成中，最核心的资产并不是他唱的歌（录音版权），而是他拥有的**词曲版权（Publishing Rights）**。\n\n* **ATV 曲库（The Beatles 版权）**：这是他最传奇的投资。",
+    "reference": "迈克尔、杰克逊的财富构成中.\n最核心的资产并不是他唱的歌、录音版权,而是他拥有的词曲版权、 Publishing Rights.\nA T V 曲库、 The Beatles 版权,这是他最传奇的投资.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌、录音版权，而是他拥有的词曲版权、Publishing Rights、ATV曲库、The Beatles版权，这是他最传奇的投资。",
+        "wav": "audio/06014__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌、录音版权，而是他拥有的词曲版权、Publishing Rights、ATV曲库、The Beatles版权。这是他最传奇的投资。",
+        "wav": "audio/06014__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "迈克尔·杰克逊的财富构成中，最核心的资产并不是他唱的歌、录音版权，而是他拥有的词曲版权、Publishing Rights、ATV曲库、The Beatles版权，这是他最传奇的投资。",
+        "wav": "audio/06014__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌、录音版权，而是他拥有的词曲版权、Publishing Rights、ATV曲库、The Beatles版权，这是他最传奇的投资。",
+        "wav": "audio/06014__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌、录音版权，而是他拥有的词曲版权（publishing rights）、ATV曲库的Beatles版权。这是他最传奇的投资。",
+        "wav": "audio/06014__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的类词曲版权（publishing rights）、Tompa TV曲库、The Beatles版权在，这是他最传奇的投资。",
+        "wav": "audio/06014__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌，是录音版权多，而是他拥有的零词曲版权，Tree Publishing Rights的Turn TV曲库，Tred Beatles版权传奇的，偷这是他最传奇的投资传奇。",
+        "wav": "audio/06014__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "迈克尔·B·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）、ATV曲库、The Beatles版权。这是他最传奇的投资。",
+        "wav": "audio/06014__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）、ATV曲库、The Beatles版权、陌生物，这是他最传奇的投资。",
+        "wav": "audio/06014__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）、R T V曲库（The Beatles）版权。这是他最传奇的投资。",
+        "wav": "audio/06014__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）。Publishing rights，Addictive Music 的 Beatles 版权，这是他最传奇的投资。",
+        "wav": "audio/06014__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "3391",
+    "section": "systems",
+    "title": "From table cells to a sentence",
+    "input": "* **对比**：猎豹每秒只能移动约16倍体长的距离，完全无法与之相比。\n\n### 速度之王对比表\n\n| 类别 | 冠军名称 | 最高速度 | 备注 |\n| | | | |\n| **宇宙极限** | **光 (Light)** | **三十万 km/s** | 物理法则的极限，不可超越 |\n",
+    "reference": "对比,猎豹每秒只能移动约十六倍体长的距离.\n完全无法与之相比.\n速度之王对比表.\n类别,冠军名称,最高速度,备注.\n宇宙极限,光 、 Light,三十万[千米|公里]每秒,物理法则的极限,不可超越.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "对比，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别，冠军名称，最高速度，备注，宇宙极限，光，light，三十万千米每秒，物理法则的极限，不可超越。",
+        "wav": "audio/03391__polestar.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "对比，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别，冠军名称，最高速度，备注，宇宙极限，光，light，三十万千米每秒，物理法则的极限，不可超越。",
+        "wav": "audio/03391__everbright.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "对比，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别，冠军名称，最高速度，备注，宇宙极限，光 light，三十万千米每秒，物理法则的极限，不可超越。",
+        "wav": "audio/03391__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "对比，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别，冠军名称，最高速度，备注，宇宙极限，光 light，三十万千米每秒，物理法则的极限，不可超越。",
+        "wav": "audio/03391__feedback.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "对比英利猎豹，每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别冠军名称最高速度备注。",
+        "wav": "audio/03391__base.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native WeText text normalization",
+        "asr": "它对比猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。催速度之王对比表，催类别区冠军名称，破最高速度，脱备注，破吞吞短吞堵宇宙极限，吞短光 lights twenty 万三十万 km 左区物理法则的极限，不可超越。",
+        "wav": "audio/03391__index_tn.wav"
+      },
+      {
+        "model": "IndexTTS2 — Native text normalization disabled",
+        "asr": "菜对比猎豹，每秒只能移动约三倍体长的距离，完全无法与之相比。速度之王对比表之类别，G冠军名称是最高速度。G备注：追讨军备。菜团宇宙极限，菜太光，菜来窜，三十万km/s的极限不可超越。",
+        "wav": "audio/03391__index_raw.wav"
+      },
+      {
+        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "asr": "asterisk asterisk asterisk 对比猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。警警警速度之王对比表类比冠军名称，最高速度，备注宇宙极限光 lighten 三十万 kb 每秒物理法则的极限不可超越。",
+        "wav": "audio/03391__cosy.wav"
+      },
+      {
+        "model": "VoxCPM2 — Original completed accuracy run",
+        "asr": "大比伯号，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别冠军名称，最高速度，备注（括号宇宙极限光号，光三十万klo，物理法则的极限，不可超越）。",
+        "wav": "audio/03391__vox.wav"
+      },
+      {
+        "model": "FireRedTTS3 — Base with native WeText frontend",
+        "asr": "对比猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表类别冠军名称最高速度备注宇宙极限，恒光，light，三十万km/s，彭里法则的极限不可超越。",
+        "wav": "audio/03391__fire.wav"
+      },
+      {
+        "model": "XTTS-v2 — Native text frontend",
+        "asr": "对比，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别，冠军名称，最高速度，备注，冠军名称，最高速度，备注。目录，宇宙极限，光速，三十万 km/s，物理法则的极限，不可超越。",
+        "wav": "audio/03391__xtts.wav"
+      }
+    ]
+  },
+  {
+    "id": "9137",
+    "section": "ablations",
+    "title": "A year, a score, a rank",
+    "input": "1. **分数门槛**：2025年该专业在广西的录取最低分为 **528分**。\n2. **位次参考**：对应的最低录取位次为 **38181名**。",
+    "reference": "一、分数门槛,二零二五年该专业在广西的录取最低分为五百二十八分.\n二、位次参考,对应的最低录取位次为三万八千一百八十一名.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "一、分数门槛，二零二五年该专业在广西的录取最低分为五百二十八分。二、位次参考，对应的最低录取位次为三万八千一百八十一名。",
+        "wav": "audio/09137__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "一、二、梁分数门槛梁。二零二五年该专业在广西的录取最低分为五百二十八分线，二乙位次参考系对应的最低录取位次为三十八万一千八百一名一千。",
+        "wav": "audio/09137__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "一、分数门槛。二零二五年该专业在广西的录取最低分为五百二十八分。二、位次参考，对应的最低录取位次为三十八万一千八百一名。",
+        "wav": "audio/09137__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "一、分数门槛，二零二五年该专业在广西的录取最低分为五百二十八分。二、为此参考对应的最低录取位次为三万八千一百八十一名。",
+        "wav": "audio/09137__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "一、分数门槛，二零二五年该专业在广西的录取最低分为五百二十八分。二、位次参考对应的最低录取位次为三水八万一千八幺名。",
+        "wav": "audio/09137__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "一、分数门槛，二零二五年该专业在广西的录取最低分为五百二十八分。二、位次参考，对应的最低录取位次为三十八万一千八十一名。",
+        "wav": "audio/09137__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "1687",
+    "section": "ablations",
+    "title": "From volts to energy",
+    "input": "记住，计算时一定要用电池标称的**电压**乘[以]**安时数**。\n\n为了方便你理解，我再举几个例子：\n* **12V 100Ah** 的电池 = 12 × 100 = 1200 Wh = **1.2 度电**\n",
+    "reference": "记住，计算时一定要用电池标称的电压乘[以]安时数。为了方便你理解，我再举几个例子。十二伏一百安时的电池等于十二乘[以]一百等于一千两百瓦时等于一点二度电。",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "记住，计算时一定要用电池标称的电压乘以安时数。为了方便你理解，我再举几个例子：十二伏一百安时的电池等于十二乘以一百等于一千两百瓦时，等于一点二度电。",
+        "wav": "audio/01687__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "记住，计算时一定要用电池标称的电压乘以乘以安时数电安。为了方便你理解，我再举几个例子：星一百安时，一百安时六的电池等于十二乘以一百等于一千二百瓦时，等于一点二度电。",
+        "wav": "audio/01687__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "记住，计算时一定要用电池标称的电压乘以安时数。为了方便你理解，我再举几个例子。十二伏一百安时的电池等于十二乘以一百等于一千Ah。变故学尖簪。",
+        "wav": "audio/01687__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "记住，计算时一定要用电池标充的电压乘什么安时数。为了方便你理解，我再举几个例子。十二伏一百安时的电池等于十二乘一百等于一千朗伏瓦时，等于一点二度电。",
+        "wav": "audio/01687__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "记住，计算时一定要用电池标称的电压乘属于安时数。为了方便你理解，我再举几个例子：十二伏一百安时的电池等于十二乘一百等于一千二百瓦时，等于一点二度电。",
+        "wav": "audio/01687__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "记住，计算时一定要用电池标称的电压乘安时数。为了方便你理解，我再举几个例子。十二伏一百安时的电池等于十二乘一百等于一千浪百瓦时，等于一点二度电。化起。",
+        "wav": "audio/01687__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "3546",
+    "section": "ablations",
+    "title": "A chain of fractions",
+    "input": "我们可以利用“除以一个数等于乘[以]这个数的倒数”这一法则来进行计算。\n\n以下是这三道题的详细脱式计算过程：\n\n1. **第一题：**\n $$ \\\\frac{6}{13} \\\\div 6 $$\n $$ = \\\\frac{6}{13} \\\\times \\\\frac{1}{6} $$\n $$ = \\\\frac{1}{13} $$\n\n2. **第二题：**\n $$ \\\\frac{5}{3} \\\\div 10 $$\n",
+    "reference": "我们可以利用\"除以一个数等于乘[以]这个数的倒数\"这一法则来进行计算.\n以下是这三道题的详细脱式计算过程.\n一、第一题.\n十三分之六除以六.\n等于十三分之六乘[以]六分之一.\n等于十三分之一.\n二、第二题.\n三分之五除以十.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程。一、第一题，十三分之六除以六等于十三分之六乘以六分之一，等于十三分之一。二、第二题，三分之五除以十。",
+        "wav": "audio/03546__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程：一、第一题是六十三分之六等于六等于十三分之六十三，筒除六分之一等于十三分之十。二、第二题分分分分之六十分之六等于十三分之一。二、第二题是三分之六十等于。",
+        "wav": "audio/03546__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程：一、第一题，十三分之六除以六等于十三分之一乘以三分之一乘以六分之一，等于十三分之一。二、第二题，三分之五除以十。",
+        "wav": "audio/03546__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "我们可以利用除以一个数等于乘中括号这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程：一、第一题，分之六除以除以六，等于十三分之六乘以六分之一，等于十三分之一。二、第二题，三分之五除以十。",
+        "wav": "audio/03546__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程：一、第一题，十三分之六除以六，等于十三分之六乘以六分之一，等于十三分之一，等于十三分之一。二、第二题，三分之五除以十。",
+        "wav": "audio/03546__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "我们可以利用除以一个数等于乘中括号这个数的倒数这一法则来进行计算。以下是这三道题的详细脱式计算过程。一，第一题，十三分之六除以六，等于十三分之六乘以六分之一，等于十三分之一。二，第二题，三分之五除以十。",
+        "wav": "audio/03546__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "2383",
+    "section": "ablations",
+    "title": "Reading symbolic subscripts",
+    "input": "* 小正方形的面积为 $S_{\\\\text{小}}$\n * 两个正方形重叠的空白部分面积为 $S_{\\\\text{重叠}}$\n * 大正方形的涂色部分面积为 $S_{\\\\text{大涂色}}$\n * 小正方形的涂色部分面积为 $S_{\\\\text{小涂色}}$\n\n* **根据图示可知：**\n",
+    "reference": "小正方形的面积为 S 小。两个正方形重叠的空白部分面积为 S 重叠。大正方形的涂色部分面积为 S 大涂色。小正方形的涂色部分面积为 S 小涂色。根据图示可知。",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "小正方形的面积为 S 小，两个正方形重叠的空白部分面积为 S 重叠，大正方形的涂色部分面积为 S 大涂色，小正方形的涂色部分面积为 S 小涂色。根据图示可知。",
+        "wav": "audio/02383__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "小正方形的面积为 S 下标小，两个正方形重叠的空白部分面积为 S 下标重叠，大正方形的涂色部分面积为 S 下标大涂色，小正方形的涂色部分面积为 S 下标小涂色。根据图示可知。",
+        "wav": "audio/02383__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "小正方形的面积为两个小，两个正方形重叠的空白部分面积为两个大正方形的涂色部分面积为两小大涂色，小正方形的涂色部分面积为两小涂色。根据图示可知。",
+        "wav": "audio/02383__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "小正方形的面积为两个正方形重叠的空白部分面积为两个重叠，大正方形的涂色部分面积为两个大涂色，小正方形的涂色部分面积为两个小涂色。根据图示可知。",
+        "wav": "audio/02383__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "小正方形的面积为小，两个正方形重叠的空白部分面积为小重叠，大正方形的涂色部分面积为 a 大涂色，小正方形的涂色部分面积为 a 小涂色。根据图示可知。",
+        "wav": "audio/02383__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "小正方形的面积为闵斜小，两个正方形重叠的空白部分面积为闵斜斜形，大正方形的涂色部分面积为闵斜小，大涂色B，小正方形的涂色部分面积为闵斜小，根据图示可知。",
+        "wav": "audio/02383__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "9000",
+    "section": "ablations",
+    "title": "An expression and its square",
+    "input": "观察图2，这是一个边长为 $a +b + c$ 的大正方形。\n方法一（整体计算）： 大正方形的边长为 $a + b +c$，其面积为 $(a + b + c)^2$。\n方法二（部分求和）： 大正方形被分割成了9个小图形，包括：\n",
+    "reference": "观察图二,这是一个边长为a加b加c的大正方形.\n方法一、整体计算,大正方形的边长为a加b加c,其面积为括号a加b加c括回的平方.\n方法二、部分求和,大正方形被分割成了九个小图形,包括.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为（括号 a 加 b 加 c 括回）的平方。方法二，部分求和，大正方形被分割成了九个小图形，包括。",
+        "wav": "audio/09000__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为 a 加 b 加 c 的平方。方法二，部分求和，大正方形被分割成了九个小图形，包括。",
+        "wav": "audio/09000__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为 a 加 b 加 c 和和的平方。方法二，部分求和，大正方形被分割成了九个小图形，包括。",
+        "wav": "audio/09000__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为 a 加 b 加 c 平方。方法二，部分求和，大正方形被分割成了九个小图形，包括。",
+        "wav": "audio/09000__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为 a 加 b 加 c 的平方。方法二，部分求和，大正方形被分割成了九个小图形，包括。",
+        "wav": "audio/09000__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "观察图二，这是一个边长为 a 加 b 加 c 的大正方形。方法一，整体计算，大正方形的边长为 a 加 b 加 c，其面积为 a 加 b 加 c 被救过的平方。方法二，部分求和，大正方形被分割成了九个小图形，包括称。",
+        "wav": "audio/09000__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "7086",
+    "section": "ablations",
+    "title": "A bilingual size chart",
+    "input": "| 尺码代码 | 英文全称 | 中文含义 | 适合人群/体型参考 |\n| | | | |\n| **XXS** | Extra Extra Small | 超小号 | 体型非常娇小 |\n| **XS** | Extra Small | 加小号 | 比小号更小，适合瘦小人群 |\n| **S** | Small | 小号 | 适合身材偏瘦的人 |\n| **M** | Medium | 中号 | 适合一般标准体型 |\n",
+    "reference": "尺码代码,英文全称,中文含义,适合人群[或|、]体型参考.\nX X S, Extra Extra Small.\n超小号 、体型非常娇小 .\nX S, Extra Small,加小号,比小号更小,适合瘦小人群.\nS, Small,小号,适合身材偏瘦的人.\nM, Medium,中号,适合一般标准体型.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "尺码代码，英文全称，中文含义，适合人群体型参考。XXS Extra Extra Small，超小号体型非常娇小。XS Extra Small，加小号比小号更小，适合瘦小人群。S Small 小号，适合身材偏瘦的人。M Medium 中号，适合一般标准体型。",
+        "wav": "audio/07086__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "尺码代码，英文全称，中文含义，适合人群体型参考。一，XXXX extra extra small，超小号，体型非常娇小。XX extra small 加小号，比小号更小，适合瘦小人群。X small 小号，适合身材偏瘦的人。M medium medium 中号，适合一般标准体型。",
+        "wav": "audio/07086__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "尺码代码，英文全称，中文含义，适合人群或体型参考。某某某 X extra extra extra small 超小号，体型非常娇小。XS extra small 加小号，比小号更小，适合瘦小人群。S small 小号，适合身材偏瘦的人。M medium 中号，适合一般标准体型。",
+        "wav": "audio/07086__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "尺码代码，英文全称，中文含义，适合人群或体型参考。某某 S， Extra Extra Small，超小号，体型非常娇小。XS， Extra Small，加小号，比小号更小，适合瘦小人群。S， Small，小号，适合身材偏瘦的人。M， Medium，中号，适合一般标准体型。",
+        "wav": "audio/07086__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "尺码代码，英文全称，中文含义，适合人群或体型参考。Amorio Xbexera Extra Extra Small 超小号，体型非常娇小。XS Extra Small 加小号，比小号更小，适合瘦小人群。Amorio 中号，适合一般标准体型。",
+        "wav": "audio/07086__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "尺码代码，英文全称，中文含义，适合人群或体型参考。XXX Extra Extra Small，超小号，体型非常娇小。XS Extra Small，加小号，比小号更小，适合瘦小人群。S Small，小号，适合身材偏瘦的人。M Medium，中号，适合一般标准体型。",
+        "wav": "audio/07086__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "9764",
+    "section": "ablations",
+    "title": "A table with an acronym",
+    "input": "| 比较维度 | 债务资本 | 权益资本 | WACC计算时的处理 |\n| | | | |\n| **支付对象** | 债权人（银行/债主） | 股东 | - |\n| **支付时间** | 税前支付（先付息，后交税） | 税后分配（先交税，后分红） | - |\n| **税务影响** | **有抵税作用**（降低实际成本） | **无抵税作用** | - |\n",
+    "reference": "比较维度,债务资本,权益资本, W A C C计算时的处理.\n支付对象 、债权人.\n银行[或|、]债主,股东 .\n支付时间,税前支付、先付息,后交税,税后分配、先交税,后分红.\n税务影响,有抵税作用、降低实际成本,无抵税作用.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "比较维度：债务资本、权益资本。WACC计算时的处理：支付对象：债权人、银行或债主、股东。支付时间：税前支付，先付息后交税；税后分配，先交税后分红。税务影响：有抵税作用，降低实际成本；无抵税作用。",
+        "wav": "audio/09764__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "比较维度：债务、资本、权益资本（WACC）计算时的处理。决资支付对象：债债权人、银行、债主、股东。支付支付时间：沉税税后，税前支付先付息后交税，税后分配先交税后分红。决资税务影响：决资有抵税作用，降低实际成本；决资无抵税作用，决资。",
+        "wav": "audio/09764__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "抵交维度债务资本、权益资本、WACC计算时的处理，支付对象债权人、银行或债主，股东减支付时间税前支付，先付息后交税，税后分配先交税后分红减，税务影响有抵税作用，降低实际成本，无抵税作用。",
+        "wav": "audio/09764__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "抵消维度：债务资本、权益资本。WACC计算时的处理：支付对象债权人、银行或债主、股东。支付时间：税前支付，先付息后交税；税后分配，先交税后分红。税务影响：有抵税作用，降低实际成本；无抵税作用。",
+        "wav": "audio/09764__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "比较维度：债务资本、权益资本。WAC计算时的处理：支付对象：债权人、银行或债主、股东、地商。支付时间：税前支付，先付息，后交税；税后分配，先交税后分红。税务影响有抵税作用，降低实际成本；无抵税作用。",
+        "wav": "audio/09764__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "比较维度：债务资本、权益资本。WACC计算时的处理。支付对象：债权人、银行、某债主、股东。计价支付时间：税前支付，先付息后交税；税后分配，先交税后分红。税务影响有抵税作用，降低实际成本；无抵税作用。",
+        "wav": "audio/09764__feedback.wav"
+      }
+    ]
+  },
+  {
+    "id": "6729",
+    "section": "ablations",
+    "title": "A storyboard with timestamps",
+    "input": "深呼吸 | 轻柔鸟鸣 + 微风声。背景音乐起（钢琴+弦乐） |\n| 2 | **2.5秒** | 少年抬头望向远方朝阳，嘴角微扬，轻声说：。**“早安，梦想！”** | **人声台词（温柔坚定）**。字幕同步显示 |\n| 3 | **2.5秒** | 他迈步向前奔跑，阳光洒在背影上，",
+    "reference": "深呼吸 、轻柔鸟鸣,加,微风声.\n背景音乐起、钢琴加弦乐.\n二,二点五秒,少年抬头望向远方朝阳,嘴角微扬,轻声说.\"早安,梦想!\",人声台词、温柔坚定.字幕同步显示.\n三,二点五秒,他迈步向前奔跑,阳光洒在背影上.",
+    "audio": [
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-only · step 9,061",
+        "asr": "深呼吸，轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。二二点五秒，少年抬头望向远方朝阳，嘴角微扬，轻声说：“早安，梦想。”人声台词温柔坚定，字幕同步显示。三二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__polestar.wav"
+      },
+      {
+        "model": "Qwen3-TTS Base — Original 1.7B Base",
+        "asr": "深呼吸，轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。二点二点五秒，少少年抬头望向远方朝阳，嘴角微扬，轻声说：“早安，梦想。”人声台词温柔坚定，字幕同步显示。三二点二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__base.wav"
+      },
+      {
+        "model": "Aemeath — Full-data E4 SFT · step 92,420",
+        "asr": "深呼吸，轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。浪二点五秒，少年抬头望向远方朝阳，嘴角微扬，轻声说早安，梦想人生台词温柔坚定，字幕同步显示。三二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__aemeath.wav"
+      },
+      {
+        "model": "Aemeath + Everbright — Coverage-aware GRPO · step 8,000",
+        "asr": "深呼吸，轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。二二点五秒，少年抬头望向远方朝阳，嘴角微扬，轻声说：“早安，梦想，人生台词，温柔坚定，字幕同步显示。”三二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__everbright.wav"
+      },
+      {
+        "model": "Everbright + acoustic control — Matched continuation · step 9,061",
+        "asr": "生活需轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。二二点五秒，少年抬头望向远方朝阳，嘴角微扬，轻声说早安。梦想人生台词温柔坚定，字幕同步显示。三二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__control.wav"
+      },
+      {
+        "model": "Aemeath + Everbright + Polestar — Position-feedback · step 9,061",
+        "asr": "深呼吸，轻柔鸟鸣加微风声，背景音乐起，钢琴加弦乐。二二点五秒，少年抬头望向远方朝阳，嘴角微扬，轻声说：“早安，梦想。”人生台词温柔坚定，字幕同步显示。三二点五秒，他迈步向前奔跑，阳光洒在背影上。",
+        "wav": "audio/06729__feedback.wav"
+      }
+    ]
+  }
+]

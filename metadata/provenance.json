@@ -1,0 +1,2022 @@
+{
+  "schema": 1,
+  "selection": "Outcome-dependent, curated success examples; no estimate of population performance.",
+  "cohort": "existing 9415-item diagnostic subset",
+  "cohort_sha256": "15a9acec075482cfa92e1e694628a70af4aa9e45db278600cb88587669d64569",
+  "selection_rules": {
+    "systems": "All four Aemeath variants CER=0; every displayed external system CER>0; no Aemeath long-silence or generation-cap flag.",
+    "ablations": "Position-only CER=0 and strictly lower CER than every other displayed variant; no position-only long-silence or generation-cap flag.",
+    "editorial": "Manually prioritize content variety and interpretable examples from the candidate pools. All variants use the same input ID."
+  },
+  "source_metrics": {
+    "base": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/report/base_whole.metrics.json",
+      "sha256": "da29be307878a30818de37b3683b731a7d55f19029b32c3e60c94bccf9a7c739"
+    },
+    "aemeath": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/report/full_e4_whole.metrics.json",
+      "sha256": "649914d9a9dcf12aec40f2584ae0c1278251215e4db69affe9bce7320335b96d"
+    },
+    "everbright": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/report/full_grpo_coverage_whole.metrics.json",
+      "sha256": "cdd3074752933aab05eb708370aedd1f5f14774cfd09b25a7b4cf27929c28371"
+    },
+    "polestar": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/report/reading_position_only_whole.metrics.json",
+      "sha256": "f8b1df6192ba01b443d52d1d523558a4ffb1417ef0dc8225ceb29a9c89c47bd2"
+    },
+    "feedback": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/report/reading_position_feedback_whole.metrics.json",
+      "sha256": "25745407fee93cff0d689aa32829c08e7a541a9614355c13178d6bed10047e3f"
+    },
+    "control": {
+      "path": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/report/reading_control_whole.metrics.json",
+      "sha256": "f31106cfaa32f8444226495e185f466abf395d6d323aaba928c3be65df95905b"
+    },
+    "index_raw": {
+      "path": "tn_distill_runs/full_0824_external_tts_v1/reports/cosyvoice3_voxcpm2_indextts2_tn_indextts2_raw/indextts2_raw.metrics.json",
+      "sha256": "01b2db4d609fda932a5eaec0768f4635236c2cae0f91a6becd347269fb15f18c"
+    },
+    "index_tn": {
+      "path": "tn_distill_runs/full_0824_external_tts_v1/reports/cosyvoice3_voxcpm2_indextts2_tn_indextts2_raw/indextts2_tn.metrics.json",
+      "sha256": "d07e196373d36b820976972854ac003ea878f6e35f63e8245176095d8f4be1e2"
+    },
+    "cosy": {
+      "path": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/reports/cosyvoice3/cosyvoice3.metrics.json",
+      "sha256": "fed0ea0ab63a9241b60cc472848015dd061a2694eaad690080f00d9566ea73dc"
+    },
+    "vox": {
+      "path": "tn_distill_runs/full_0824_external_tts_v1/reports/cosyvoice3_voxcpm2_indextts2_tn_indextts2_raw/voxcpm2.metrics.json",
+      "sha256": "d2a2cca260ed3f16860cc3b915d57683744c0e07e3cd0ad1d875ec37c58f1982"
+    },
+    "fire": {
+      "path": "tn_distill_runs/full_0824_additional_tts_v1/reports/fireredtts3_tn_xtts_v2/fireredtts3_tn.metrics.json",
+      "sha256": "1b7572555fa78b4c53714fbc06238df0f21ad41c25e2833ce89dfa5ad36eab2a"
+    },
+    "xtts": {
+      "path": "tn_distill_runs/full_0824_additional_tts_v1/reports/fireredtts3_tn_xtts_v2/xtts_v2.metrics.json",
+      "sha256": "242acbf5364caae5ebb42b0e576509db2a848fa396d9a2124d68a2e8207d6f59"
+    }
+  },
+  "source_listening": {
+    "tn_distill_runs/e3_20k/experiments/recovery_72h_v1/evaluation/base_whole/qwen/results.json": {
+      "sha256": "03aff2cc02f3f49a50c87912f016ecca1cd4b23d9afe664b31d459422dcfa0e1",
+      "bytes": 44280030
+    },
+    "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/listening.json": {
+      "sha256": "b6a231b6bdac6ef3c036c9f31a78abfa2e81ff623c70f0654ae43f0cd3aede24",
+      "bytes": 9562235
+    },
+    "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/listening.json": {
+      "sha256": "b5ec9b9a84dace5209a583ad27f3589051ffc3dadb044f0d4199d5544237eee7",
+      "bytes": 9790916
+    },
+    "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/listening.json": {
+      "sha256": "f88d765ab47a1a2d8652a377925519f63806c3caecc94ebc818398976dbeed9d",
+      "bytes": 9850125
+    },
+    "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/listening.json": {
+      "sha256": "2bef01d3fb87bf9f2ca1cd66780e764898ea35a0058f0974d39a124e27b7a775",
+      "bytes": 9928926
+    },
+    "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/listening.json": {
+      "sha256": "86e9e1b2d1fdf0e437521d932751ffa655a4dd6e6ad2d3426b271c4ec5baeb6c",
+      "bytes": 9730665
+    },
+    "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/listening.json": {
+      "sha256": "aa64de9fdbe65fbf668acee0b19e418ab31cc652ba5589d348dca7cfd5fb8827",
+      "bytes": 9605438
+    },
+    "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/listening.json": {
+      "sha256": "5e467986b2c2d0fd1013a78a95567393c73b7680d01f2b530343cfc488030b21",
+      "bytes": 9606051
+    },
+    "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/listening.json": {
+      "sha256": "03ca9c70091a327008be523bc1d03d8acb92a45a2cdebffc775cf05c68eb65a9",
+      "bytes": 9508016
+    },
+    "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/listening.json": {
+      "sha256": "aa1780da5b9847c0bbed3f9e4066fa6731751706312d7e39d78fe2a818775e04",
+      "bytes": 9447781
+    },
+    "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/listening.json": {
+      "sha256": "0b2918a4669a4f881ca9ba26120f4c70bb2bb7d39a182215316b1a4ddb914a10",
+      "bytes": 9476033
+    },
+    "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/listening.json": {
+      "sha256": "e48d00d4464a86993a89d19b643a8a2c50939d3c535be7658344879bf40bf649",
+      "bytes": 9470712
+    }
+  },
+  "benchmark": {
+    "path": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/manifest.jsonl",
+    "sha256": "593cc2feefb2e655b73ffc6c088d36d6537f0da113aa1b86405c7f6fc08fc7c8"
+  },
+  "asr": "Existing blind Qwen3-ASR-1.7B; case-insensitive permitted-reading CER. Not a perceptual quality score.",
+  "audio": "Byte-for-byte copies. No trimming, resynthesis, denoising, loudness changes, or time stretching.",
+  "signal_check": "Selected Aemeath waveforms: PCM RMS in 20ms windows; -45dBFS quiet threshold. Not a human listening certification.",
+  "cases": [
+    {
+      "id": "3584",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "10",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "7775",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "8914",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "5251",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "9518",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "5741",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "7352",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "8877",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "5074",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "6014",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "3391",
+      "section": "systems",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "9137",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "1687",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "3546",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "2383",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "9000",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "7086",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "9764",
+      "section": "ablations",
+      "featured_model": "polestar"
+    },
+    {
+      "id": "6729",
+      "section": "ablations",
+      "featured_model": "polestar"
+    }
+  ],
+  "files": [
+    {
+      "id": "6729",
+      "model": "base",
+      "file": "audio/06729__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/6729.wav",
+      "sha256": "caed5c6b89ac7754e0364ea5871ecbdfdaa3d31ca6933d2a2a229a5e1a898a40",
+      "bytes": 1040684,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二点二点五秒少少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "9137",
+      "model": "base",
+      "file": "audio/09137__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/9137.wav",
+      "sha256": "f3eea03f410b870b72498e4e76895c16504b44c473e0a42c5aa9afd3296c4583",
+      "bytes": 672044,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一二梁分数门槛梁二零二五年该专业在广西的录取最低分为五百二十八分线二乙位次参考系对应的最低录取位次为三十八万一千八百一名一千"
+    },
+    {
+      "id": "10",
+      "model": "base",
+      "file": "audio/00010__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/010.wav",
+      "sha256": "0221865bea2a2f4100aaef81e31f89735a3abd36e5e8a4969b1d88f76634d78e",
+      "bytes": 998444,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro小番是三十九元提供更多积分额度和云服务资源个人高级版mx八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和mx版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "3546",
+      "model": "base",
+      "file": "audio/03546__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/3546.wav",
+      "sha256": "68955a291a514d423351be53fc6853d0214b4a97077b36738170cbe0c9108970",
+      "bytes": 1182764,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题是六十三分之六等于六等于十三分之六十三筒除六分之一等于十三分之十二第二题分分分分之六十分之六等于十三分之一二第二题是三分之六十等于"
+    },
+    {
+      "id": "5074",
+      "model": "base",
+      "file": "audio/05074__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/5074.wav",
+      "sha256": "46d58a74757b152f78607166c9c301f0d992cf27ba8fe90e49aa093eff1b1738",
+      "bytes": 837164,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为荣耀下d通常是同时按住下音音量上键加音量下键三秒"
+    },
+    {
+      "id": "8914",
+      "model": "base",
+      "file": "audio/08914__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/8914.wav",
+      "sha256": "e932f52a2110cfc9bba18e1c948104274e037316b5c66d90364f7ad579511837",
+      "bytes": 1536044,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "撅盖走速度约五点六千米每小时身体微热屌六十减七十分钟秒慢慢跑速度约八千米每小时可以说话但微喘屌三十五减四十五分钟屌跳绳屌中速约一百到一百二十次每分屌二十五减三十分钟屌跳绳屌中速约一百到一百二十次每分屌二十五减三十分钟屌跳游泳屌自由泳或蛙泳中等速度屌屌三十减四十分钟屌驾骑自行车屌休闲骑行速度约十五屌二十千米每小时屌屌五十减六十分钟屌屌"
+    },
+    {
+      "id": "5251",
+      "model": "base",
+      "file": "audio/05251__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/5251.wav",
+      "sha256": "1a266d463914e98247bd4f7c69eae2ceb01704cf1ed5dd565b20b4c2e007a5d8",
+      "bytes": 641324,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建一个建一棵一棵"
+    },
+    {
+      "id": "9764",
+      "model": "base",
+      "file": "audio/09764__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/9764.wav",
+      "sha256": "6ae46bb75f31284bedd395c1cbfcf82a7c37baa1f9e953f149052c799f7f8955",
+      "bytes": 1056044,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "比较维度债务资本权益资本wacc计算时的处理决资支付对象债债权人银行债主股东支付支付时间沉税税后税前支付先付息后交税税后分配先交税后分红决资税务影响决资有抵税作用降低实际成本决资无抵税作用决资"
+    },
+    {
+      "id": "5741",
+      "model": "base",
+      "file": "audio/05741__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/5741.wav",
+      "sha256": "e97719b3d4c62c6817d606ad8cc19142eede5c355724a9a54797b7fac334b5c5",
+      "bytes": 817964,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风注意防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "8877",
+      "model": "base",
+      "file": "audio/08877__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/8877.wav",
+      "sha256": "18badcccb6a2cee8d48dfb4bd4e34534828104cf896c7c1db44b663ec57458a7",
+      "bytes": 1178924,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "秀零高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统受容量适中一百毫升容量足够一天使用便携性好秀零价格区间约一百九十九元正三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "6014",
+      "model": "base",
+      "file": "audio/06014__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/6014.wav",
+      "sha256": "8ee29d9e5806c8064a026546c744912ae54c599ee90e6fcc06d4a25b25d02a3a",
+      "bytes": 672044,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库的beatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "7086",
+      "model": "base",
+      "file": "audio/07086__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/7086.wav",
+      "sha256": "888ff060f61785bed5b1b1498d64a8f026bd0c8d55f8f1120a852338ef6b2bb5",
+      "bytes": 1090604,
+      "cached_reference": "尺码代码英文全称中文含义适合人群体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群体型参考一xxxxextraextrasmall超小号体型非常娇小xxextrasmall加小号比小号更小适合瘦小人群xsmall小号适合身材偏瘦的人mmediummedium中号适合一般标准体型"
+    },
+    {
+      "id": "9518",
+      "model": "base",
+      "file": "audio/09518__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/9518.wav",
+      "sha256": "fcf976ab2713c10f8bdd5807c52dc0b704494c0da435fde0a29ed8217ce63e95",
+      "bytes": 1152044,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度一必须覆盖如果气温稳定在十八摄氏度二十摄氏度以上则必须要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "1687",
+      "model": "base",
+      "file": "audio/01687__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/1687.wav",
+      "sha256": "1820c28e0ef7f0d5b77197957c80bbdc398705ead48a5f2d819d4d852cb2b447",
+      "bytes": 748844,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘以一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标称的电压乘以乘以安时数电安为了方便你理解我再举几个例子星一百安时一百安时六的电池等于十二乘以一百等于一千二百瓦时等于一点二度电"
+    },
+    {
+      "id": "2383",
+      "model": "base",
+      "file": "audio/02383__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/2383.wav",
+      "sha256": "f7fbc50cd3a440fa2e6ed81db75156a7971927968201fbcc07fb470d63e34822",
+      "bytes": 775724,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为s下标小两个正方形重叠的空白部分面积为s下标重叠大正方形的涂色部分面积为s下标大涂色小正方形的涂色部分面积为s下标小涂色根据图示可知"
+    },
+    {
+      "id": "3391",
+      "model": "base",
+      "file": "audio/03391__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/3391.wav",
+      "sha256": "b747c61b7752ec857536e1c2baa7dcf7b2e0acd7990b0f2b076de94733239ddb",
+      "bytes": 553004,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比英利猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注"
+    },
+    {
+      "id": "7775",
+      "model": "base",
+      "file": "audio/07775__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/7775.wav",
+      "sha256": "b0dd112f8e5d1739f1f229468ad338e8737a71c061bf47af2a7a61cd17dbec7c",
+      "bytes": 875564,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九text元零七text分因为一text元等于一百text分所以七text分等于零点零七text元"
+    },
+    {
+      "id": "3584",
+      "model": "base",
+      "file": "audio/03584__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/3584.wav",
+      "sha256": "1018ce23f999b5a0385bba52096a08833d65e5f9e44dd32e03fe8a8f8085fa82",
+      "bytes": 387884,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数每元图形为四行十二列共四表列共整四十八个方格"
+    },
+    {
+      "id": "7352",
+      "model": "base",
+      "file": "audio/07352__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/7352.wav",
+      "sha256": "c65bb6b81ae713365c97c01c35d477aaf03ca2f3cce2214a44af4467fb833e4b",
+      "bytes": 1036844,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发发量少约十五到二十分钟长长发发量多约三十到四十五分钟建建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "9000",
+      "model": "base",
+      "file": "audio/09000__base.wav",
+      "source": "tn_distill_runs/e3_20k/benchmark/full_comparison_v1/generation/base_whole/wav/9000.wav",
+      "sha256": "4eb52b51b303cc37c3b4f2be26e3337856951fea1b8fd4b21b4363846b9c849d",
+      "bytes": 821804,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为a加b加c的平方方法二部分求和大正方形被分割成了九个小图形包括"
+    },
+    {
+      "id": "10",
+      "model": "aemeath",
+      "file": "audio/00010__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_10.wav",
+      "sha256": "8b655d39b1e1304cad63c27aa61ce9b4f90cd7f6de460b7b1e2fc0595ef66eaa",
+      "bytes": 1297964,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "1687",
+      "model": "aemeath",
+      "file": "audio/01687__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_1687.wav",
+      "sha256": "9b08a7fd37630206afbea817a2826a22076c69a715a2257acc209f5e17567220",
+      "bytes": 698924,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘以一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘以一百等于一千ah变故学尖簪"
+    },
+    {
+      "id": "2383",
+      "model": "aemeath",
+      "file": "audio/02383__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_2383.wav",
+      "sha256": "bec3f0a444bc333251343d0a02b7431ae3f71569b574e1eeb9663408645e7d9b",
+      "bytes": 921644,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为两个小两个正方形重叠的空白部分面积为两个大正方形的涂色部分面积为两小大涂色小正方形的涂色部分面积为两小涂色根据图示可知"
+    },
+    {
+      "id": "3391",
+      "model": "aemeath",
+      "file": "audio/03391__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_3391.wav",
+      "sha256": "e23afa1b86099769c99979ce52300dcde8b1c1226ffa1781027fab1b746bffb6",
+      "bytes": 948524,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越"
+    },
+    {
+      "id": "3546",
+      "model": "aemeath",
+      "file": "audio/03546__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_3546.wav",
+      "sha256": "1fa5ab7520bd9d2b9413aa9069b2986538686110e746c08b00b3a090aa5cdf20",
+      "bytes": 963884,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之一乘以三分之一乘以六分之一等于十三分之一二第二题三分之五除以十"
+    },
+    {
+      "id": "3584",
+      "model": "aemeath",
+      "file": "audio/03584__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_3584.wav",
+      "sha256": "a51c0abf190e0438b743a899b9836499b44d3f92782c8389ecda48752c30f80d",
+      "bytes": 426284,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "aemeath",
+      "file": "audio/05074__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_5074.wav",
+      "sha256": "4845360c32758d5175c5efc6dda30678452426ea0125600777708997dd90a7bf",
+      "bytes": 821804,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "aemeath",
+      "file": "audio/05251__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_5251.wav",
+      "sha256": "616f4d463c415e0022edd86fbdf6b5b2f1d9a7a6e234666779bec1643ef26e3a",
+      "bytes": 641324,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵"
+    },
+    {
+      "id": "5741",
+      "model": "aemeath",
+      "file": "audio/05741__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_5741.wav",
+      "sha256": "dea50ccdaee4fe8ff3e5f201ee710d07b450fa882edc3855f4db04afe503e2d2",
+      "bytes": 756524,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "aemeath",
+      "file": "audio/06014__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_6014.wav",
+      "sha256": "da43f3ab4cf12d6dae42533bee613f3c20bf869493526ee5d8ab9d9d7942b6f3",
+      "bytes": 814124,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "6729",
+      "model": "aemeath",
+      "file": "audio/06729__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_6729.wav",
+      "sha256": "5a7af6efb049d3a9b89c9e02bc8fe9f1bf4b09a97e97f1da2e770a9f2324502e",
+      "bytes": 1463084,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐浪二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人生台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "7086",
+      "model": "aemeath",
+      "file": "audio/07086__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_7086.wav",
+      "sha256": "d6340888474aa4a714497a1e835bc29cd70412501839fda034f32458ddc10110",
+      "bytes": 1132844,
+      "cached_reference": "尺码代码英文全称中文含义适合人群或体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群或体型参考某某某xextraextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型"
+    },
+    {
+      "id": "7352",
+      "model": "aemeath",
+      "file": "audio/07352__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_7352.wav",
+      "sha256": "a82de0e8146eb5422bcb0cbcab1b2345866f40b36a92361625dad6ab6adf410c",
+      "bytes": 1251884,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "aemeath",
+      "file": "audio/07775__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_7775.wav",
+      "sha256": "25b20663fe25214a98ceda170181dcd3f9a8c90d33fee387e772901f467bbd2c",
+      "bytes": 718124,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元"
+    },
+    {
+      "id": "8877",
+      "model": "aemeath",
+      "file": "audio/08877__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_8877.wav",
+      "sha256": "310c17042595dee6f8c4d050e714cd0036246b99f815ddf63cee7014fbee51ee",
+      "bytes": 1198124,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "aemeath",
+      "file": "audio/08914__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_8914.wav",
+      "sha256": "f7b92ae5bce37e25312783c75a58e140a58702856cd41daa93ac62544594f79d",
+      "bytes": 1144364,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟"
+    },
+    {
+      "id": "9000",
+      "model": "aemeath",
+      "file": "audio/09000__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_9000.wav",
+      "sha256": "01fa8c23f23436101938e88e9b1131a144a55e2b221bf25c7f2ae809ae24b422",
+      "bytes": 1040684,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为a加b加c和和的平方方法二部分求和大正方形被分割成了九个小图形包括"
+    },
+    {
+      "id": "9137",
+      "model": "aemeath",
+      "file": "audio/09137__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_9137.wav",
+      "sha256": "0887fb2c08b3af3341a2d506118f49457730e8a871d427f024745ecf99d01552",
+      "bytes": 687404,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三十八万一千八百一名"
+    },
+    {
+      "id": "9518",
+      "model": "aemeath",
+      "file": "audio/09518__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_9518.wav",
+      "sha256": "731d2c67729dd3e2ec1d2c1a37dba91f7fe1f7e91ba898c12088aa42527cd946",
+      "bytes": 1221164,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "9764",
+      "model": "aemeath",
+      "file": "audio/09764__aemeath.wav",
+      "source": "tn_distill_runs/full_0824_sft_v1/acceptance/full_benchmark_v1/wav/full_e4_whole_9764.wav",
+      "sha256": "89b1be009edf385637941205fdffca0c346a7f4f8f97bfd937d18e4a02dbdd1a",
+      "bytes": 1013804,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "抵交维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东减支付时间税前支付先付息后交税税后分配先交税后分红减税务影响有抵税作用降低实际成本无抵税作用"
+    },
+    {
+      "id": "10",
+      "model": "everbright",
+      "file": "audio/00010__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_10.wav",
+      "sha256": "ec74ce5f939630cb7c77501487692aff1f8d099519e2ccbe85cf0faf48688012",
+      "bytes": 1344044,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "1687",
+      "model": "everbright",
+      "file": "audio/01687__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_1687.wav",
+      "sha256": "addf63862967923b81427b2c8c18c11bda3fc6ee6d1d16014ce663bc162c4222",
+      "bytes": 794924,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标充的电压乘什么安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千朗伏瓦时等于一点二度电"
+    },
+    {
+      "id": "2383",
+      "model": "everbright",
+      "file": "audio/02383__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_2383.wav",
+      "sha256": "e9abd0c7e670f8860a056e27faa0f0a6f0720c8c43b2a45468de0c793e7603bf",
+      "bytes": 963884,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为两个正方形重叠的空白部分面积为两个重叠大正方形的涂色部分面积为两个大涂色小正方形的涂色部分面积为两个小涂色根据图示可知"
+    },
+    {
+      "id": "3391",
+      "model": "everbright",
+      "file": "audio/03391__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_3391.wav",
+      "sha256": "03aafd25e8615153e9896d89d960ee8622e8505f0fa38bbc0968c774db25dbfa",
+      "bytes": 952364,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越"
+    },
+    {
+      "id": "3546",
+      "model": "everbright",
+      "file": "audio/03546__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_3546.wav",
+      "sha256": "5f111ad87be975bd9705bcafd97dcdbf18fcbca21e81280242242817e04e4b26",
+      "bytes": 1067564,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘中括号这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题分之六除以除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十"
+    },
+    {
+      "id": "3584",
+      "model": "everbright",
+      "file": "audio/03584__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_3584.wav",
+      "sha256": "3fdec813b74d01416d2c6dffedf605856ca5c0d4390d72f1cc1ad2fcfbd348b7",
+      "bytes": 430124,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "everbright",
+      "file": "audio/05074__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_5074.wav",
+      "sha256": "7768fd235d96b70536b30bf27146833b2fb5d9019979146640fa6c57d01e62b1",
+      "bytes": 794924,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "everbright",
+      "file": "audio/05251__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_5251.wav",
+      "sha256": "7b3fbd6509ae9eb58e9561b3a5bcc35131766ef91b330ada333e065ebac5f874",
+      "bytes": 656684,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵"
+    },
+    {
+      "id": "5741",
+      "model": "everbright",
+      "file": "audio/05741__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_5741.wav",
+      "sha256": "e1ddd9ddf60a6fbd2e850ec74771dabeca2fea29e805e008f0bb5083efddee96",
+      "bytes": 817964,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "everbright",
+      "file": "audio/06014__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_6014.wav",
+      "sha256": "13c0b17495d6c96a4e5e4f8575d23405acaf6cb5fd517d49cc0fda078b925e32",
+      "bytes": 860204,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "6729",
+      "model": "everbright",
+      "file": "audio/06729__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_6729.wav",
+      "sha256": "0e5439059cf2b66ddd0947648c4fe1aba13706308898a705bd0cd7d0be331ec8",
+      "bytes": 1417004,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人生台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "7086",
+      "model": "everbright",
+      "file": "audio/07086__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_7086.wav",
+      "sha256": "cd7ad0399854dc6912814eb0631d029bc0ffc92996e3ac0426bfc7e4dc02800f",
+      "bytes": 1313324,
+      "cached_reference": "尺码代码英文全称中文含义适合人群或体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群或体型参考某某sextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型"
+    },
+    {
+      "id": "7352",
+      "model": "everbright",
+      "file": "audio/07352__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_7352.wav",
+      "sha256": "3f8ed8b3c0b46f57fbd6f5f9b2c6a7eab58396d1a4ea5ad89bdb09a0ca31ee67",
+      "bytes": 1209644,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "everbright",
+      "file": "audio/07775__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_7775.wav",
+      "sha256": "cb3048d28587861050947c1896ba6e1db17f81da5ff1009730e6b4f5479d523b",
+      "bytes": 779564,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元"
+    },
+    {
+      "id": "8877",
+      "model": "everbright",
+      "file": "audio/08877__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_8877.wav",
+      "sha256": "d466706c4e790f18d18e347e145cc5614498bf7dbcb21c4f060d88a52acd8fee",
+      "bytes": 1217324,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "everbright",
+      "file": "audio/08914__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_8914.wav",
+      "sha256": "87427120677b90071e408f84813a3806738cd39384d36f25ef8b15ab84091fad",
+      "bytes": 1486124,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟"
+    },
+    {
+      "id": "9000",
+      "model": "everbright",
+      "file": "audio/09000__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_9000.wav",
+      "sha256": "972162a387a7a853f27e34dab9a999fc7a983c7d2908c948d15f695154ba5205",
+      "bytes": 960044,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为a加b加c平方方法二部分求和大正方形被分割成了九个小图形包括"
+    },
+    {
+      "id": "9137",
+      "model": "everbright",
+      "file": "audio/09137__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_9137.wav",
+      "sha256": "7c4fdbb12ba1145cb3e648e470158392f4a8f0799fcc6c7998141a7ffdc76f70",
+      "bytes": 625964,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二为此参考对应的最低录取位次为三万八千一百八十一名"
+    },
+    {
+      "id": "9518",
+      "model": "everbright",
+      "file": "audio/09518__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_9518.wav",
+      "sha256": "cb20ec13a3c729c416a6d6be3f6b0c6c328afd4bb47caed1e5e510e3b7df20d4",
+      "bytes": 1225004,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "9764",
+      "model": "everbright",
+      "file": "audio/09764__everbright.wav",
+      "source": "tn_distill_runs/full_0824_grpo_fast_ws24_v1/acceptance/coverage-step-00008000/wav/full_grpo_coverage_whole_9764.wav",
+      "sha256": "99bccab790b3578e1a748d549a92b3023dae81739f26e49df0ba67484ef80513",
+      "bytes": 1178924,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "抵消维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用"
+    },
+    {
+      "id": "10",
+      "model": "polestar",
+      "file": "audio/00010__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_10.wav",
+      "sha256": "4fb12c259954ed0f83bd0d5af8a5a018bfcc6ec6e3cd040f865aa61734020608",
+      "bytes": 1447724,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "1687",
+      "model": "polestar",
+      "file": "audio/01687__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_1687.wav",
+      "sha256": "8bdb990a3137141dbe71f969aea0486ff41ab0c50a3f3007986057cce71a06ed",
+      "bytes": 791084,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘以一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘以一百等于一千两百瓦时等于一点二度电"
+    },
+    {
+      "id": "2383",
+      "model": "polestar",
+      "file": "audio/02383__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_2383.wav",
+      "sha256": "34d439a9f794a0ec4ea71286b1e879df74f16a9727c48affb321465642826108",
+      "bytes": 975404,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知"
+    },
+    {
+      "id": "3391",
+      "model": "polestar",
+      "file": "audio/03391__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_3391.wav",
+      "sha256": "604c744db71b9e4cad80f3f79068e537ef89bace071ab0b83824a61f4b826e2a",
+      "bytes": 1017644,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越"
+    },
+    {
+      "id": "3546",
+      "model": "polestar",
+      "file": "audio/03546__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_3546.wav",
+      "sha256": "194d3f0c1cfda3e4483af2b2fe0b8c64bd62d3ac635b9e0750fe60f8be7d25ce",
+      "bytes": 1278764,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十"
+    },
+    {
+      "id": "3584",
+      "model": "polestar",
+      "file": "audio/03584__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_3584.wav",
+      "sha256": "1bdd3c116f065ef0c8d6bc20412143f81529c3d3c602b0615e5993c7f9e30097",
+      "bytes": 433964,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "polestar",
+      "file": "audio/05074__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_5074.wav",
+      "sha256": "e3661f5c474c1e02ff880fdbfb3a8465ec05ef5c9f7e0df198ada1e0fe9d4076",
+      "bytes": 829484,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "polestar",
+      "file": "audio/05251__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_5251.wav",
+      "sha256": "2e1758c3e4fc213678419355528d6292ea4f6156831128dbf1c0783418cab4e4",
+      "bytes": 672044,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵"
+    },
+    {
+      "id": "5741",
+      "model": "polestar",
+      "file": "audio/05741__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_5741.wav",
+      "sha256": "045f1e52003a0acc3d6a8fba59650acb35e1d8a5fb3ec587a1ce2627e44d9f5d",
+      "bytes": 821804,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "polestar",
+      "file": "audio/06014__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_6014.wav",
+      "sha256": "99557b5602b04d4ccb33092a09f5d7400fa96c17d327543db7280a02caf3b304",
+      "bytes": 817964,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "6729",
+      "model": "polestar",
+      "file": "audio/06729__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_6729.wav",
+      "sha256": "b3d89564b81035ea274f03eabc8caa051707e882b17da513e4189235927f2d9c",
+      "bytes": 1382444,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "7086",
+      "model": "polestar",
+      "file": "audio/07086__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_7086.wav",
+      "sha256": "6e1d5ac3bffe54bc7a874761d6b88f1399c9883874a9d9780ee2b858da53d383",
+      "bytes": 1301804,
+      "cached_reference": "尺码代码英文全称中文含义适合人群体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型"
+    },
+    {
+      "id": "7352",
+      "model": "polestar",
+      "file": "audio/07352__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_7352.wav",
+      "sha256": "0dc66fddcf2cacfd48e84dbf8c63d58c64a401eebcf51231affdad7ef46676fd",
+      "bytes": 1282604,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "polestar",
+      "file": "audio/07775__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_7775.wav",
+      "sha256": "58f5788f56e7c8e1622b345e2b7a70a96ed0e91b6e539fbc341857ce49de1174",
+      "bytes": 852524,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元"
+    },
+    {
+      "id": "8877",
+      "model": "polestar",
+      "file": "audio/08877__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_8877.wav",
+      "sha256": "36591ab83ab35894f7959d0b1eac35fde3fbbbe7c89bf6eaae424fb8c469c248",
+      "bytes": 1274924,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "polestar",
+      "file": "audio/08914__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_8914.wav",
+      "sha256": "7a2e0dc7a305d984fd2eb2148325616b63dbe4e2c19a848158b6a5b679fe41c3",
+      "bytes": 1336364,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟"
+    },
+    {
+      "id": "9000",
+      "model": "polestar",
+      "file": "audio/09000__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_9000.wav",
+      "sha256": "79c4e7013392f89c8899aea1c024714561507aea1bd867e77e8275ec42bcb798",
+      "bytes": 1178924,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括"
+    },
+    {
+      "id": "9137",
+      "model": "polestar",
+      "file": "audio/09137__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_9137.wav",
+      "sha256": "c7ea101778b5a18a5994892c5c6343d0cd676c6e77a56fa5782d2fdac586bc46",
+      "bytes": 710444,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名"
+    },
+    {
+      "id": "9518",
+      "model": "polestar",
+      "file": "audio/09518__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_9518.wav",
+      "sha256": "78fac53df1861dcb6153a84f18777b6d34cd8bb79598ff6fcd919aa610381426",
+      "bytes": 1178924,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "9764",
+      "model": "polestar",
+      "file": "audio/09764__polestar.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_only-step-00009061/wav/reading_position_only_whole_9764.wav",
+      "sha256": "cec36126d121dc94025c62497f5436cfa64747141943501fe67a365395a2b1d6",
+      "bytes": 1286444,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用"
+    },
+    {
+      "id": "10",
+      "model": "feedback",
+      "file": "audio/00010__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_10.wav",
+      "sha256": "1804e7f505fa390de1babd65bd8842d957363a16b680ee9d659fa7f96a482313",
+      "bytes": 1332524,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "1687",
+      "model": "feedback",
+      "file": "audio/01687__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_1687.wav",
+      "sha256": "4a3dbb9ef80dee9d4033205f098762876d9083bc60c421f8e37af103c5be907a",
+      "bytes": 860204,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标称的电压乘安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千浪百瓦时等于一点二度电化起"
+    },
+    {
+      "id": "2383",
+      "model": "feedback",
+      "file": "audio/02383__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_2383.wav",
+      "sha256": "093f38db8f81d75a27ded74d68f755c01a5a4b320a730dc0024f780bd4a0bcfc",
+      "bytes": 1205804,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为闵斜小两个正方形重叠的空白部分面积为闵斜斜形大正方形的涂色部分面积为闵斜小大涂色b小正方形的涂色部分面积为闵斜小根据图示可知"
+    },
+    {
+      "id": "3391",
+      "model": "feedback",
+      "file": "audio/03391__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_3391.wav",
+      "sha256": "aad2d1f9201187230817ef82efa0e0f5a83b645502ec91f70cc5cec17778455b",
+      "bytes": 825644,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越"
+    },
+    {
+      "id": "3546",
+      "model": "feedback",
+      "file": "audio/03546__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_3546.wav",
+      "sha256": "bdf0547fdecd5177d16743e8a2c27ec5f462e270314bc47092140113293c76ae",
+      "bytes": 1240364,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘中括号这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十"
+    },
+    {
+      "id": "3584",
+      "model": "feedback",
+      "file": "audio/03584__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_3584.wav",
+      "sha256": "f9e983ce020789c0f44252d92297cad575aa33574805414c50af12093c67d102",
+      "bytes": 391724,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "feedback",
+      "file": "audio/05074__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_5074.wav",
+      "sha256": "700b3b9a2364b16c2a39ca2f26db90cb73647899ed5d86f177e30401f0db1dd1",
+      "bytes": 837164,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为或荣耀通常是同时按住音量上键加音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "feedback",
+      "file": "audio/05251__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_5251.wav",
+      "sha256": "632c135b5fbd7e615f6638a6225f77dc5d92e3539f2249c1800c6c70d9a10da4",
+      "bytes": 706604,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵"
+    },
+    {
+      "id": "5741",
+      "model": "feedback",
+      "file": "audio/05741__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_5741.wav",
+      "sha256": "2682c2af58b807fafda2b736b168f04e74376a401274ab2ce967057f879e8687",
+      "bytes": 745004,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "feedback",
+      "file": "audio/06014__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_6014.wav",
+      "sha256": "a78929438babc9b24a57305ec26794bd3e53dadc2edf1011668b344464a5dd12",
+      "bytes": 848684,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "6729",
+      "model": "feedback",
+      "file": "audio/06729__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_6729.wav",
+      "sha256": "19f0bcf7eb671d521d41be46a1721c7e79d632015b2f643d2152e822fef9c7d1",
+      "bytes": 1382444,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人生台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "7086",
+      "model": "feedback",
+      "file": "audio/07086__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_7086.wav",
+      "sha256": "eb0f7115a3f9f96387b33d68554c3275d5a0a53cc9ab133e07ea9817c33cde63",
+      "bytes": 1294124,
+      "cached_reference": "尺码代码英文全称中文含义适合人群或体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群或体型参考xxxextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型"
+    },
+    {
+      "id": "7352",
+      "model": "feedback",
+      "file": "audio/07352__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_7352.wav",
+      "sha256": "e490c9343264b8582205c8f1b6167c74011718f147819f8f87bc9844bc20df0f",
+      "bytes": 1228844,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "feedback",
+      "file": "audio/07775__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_7775.wav",
+      "sha256": "2210a4d1afdecdf307efd7c674499014b50c7717e48f174ea722ece8bc73a37b",
+      "bytes": 783404,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元"
+    },
+    {
+      "id": "8877",
+      "model": "feedback",
+      "file": "audio/08877__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_8877.wav",
+      "sha256": "0cc71b57c4708e1dc5ae27cfa896b37cfdb3613d2e69703ed1c0d04763a9d6a6",
+      "bytes": 1175084,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "feedback",
+      "file": "audio/08914__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_8914.wav",
+      "sha256": "c1bda9d94e2101d11b0b5330a30b1a2621d45a451b60c17cff3c1d3a889b14cf",
+      "bytes": 1731884,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟"
+    },
+    {
+      "id": "9000",
+      "model": "feedback",
+      "file": "audio/09000__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_9000.wav",
+      "sha256": "7f93e146d0740c2b37bc6d904ccd9ada6a9d35ccf01c1ce0272567cd8251d30e",
+      "bytes": 1094444,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为a加b加c被救过的平方方法二部分求和大正方形被分割成了九个小图形包括称"
+    },
+    {
+      "id": "9137",
+      "model": "feedback",
+      "file": "audio/09137__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_9137.wav",
+      "sha256": "9bc982e62375590ec8d47fdc44241e73495b0e1b04f95758e2cd486124fd886b",
+      "bytes": 718124,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三十八万一千八十一名"
+    },
+    {
+      "id": "9518",
+      "model": "feedback",
+      "file": "audio/09518__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_9518.wav",
+      "sha256": "644f029a870173cc5036f371911415937ce33c22baa41182d8b61a8f2374bdad",
+      "bytes": 1297964,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "9764",
+      "model": "feedback",
+      "file": "audio/09764__feedback.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/position_feedback-step-00009061/wav/reading_position_feedback_whole_9764.wav",
+      "sha256": "1c28565203258ca59df116839f47d60daac8905522f5f405aeb67b0980ca737c",
+      "bytes": 1144364,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行某债主股东计价支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用"
+    },
+    {
+      "id": "1687",
+      "model": "control",
+      "file": "audio/01687__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_1687.wav",
+      "sha256": "bbd87de4acb8bb72a61973e31607e96d8b3fa92dc7b2679309a45e838b8e74d6",
+      "bytes": 802604,
+      "cached_reference": "记住计算时一定要用电池标称的电压乘以安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千两百瓦时等于一点二度电",
+      "cached_hypothesis": "记住计算时一定要用电池标称的电压乘属于安时数为了方便你理解我再举几个例子十二伏一百安时的电池等于十二乘一百等于一千二百瓦时等于一点二度电"
+    },
+    {
+      "id": "2383",
+      "model": "control",
+      "file": "audio/02383__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_2383.wav",
+      "sha256": "aba6fe33c3f55273840d077da8f9a2a20db76081f16cd5018906954267cad725",
+      "bytes": 1052204,
+      "cached_reference": "小正方形的面积为s小两个正方形重叠的空白部分面积为s重叠大正方形的涂色部分面积为s大涂色小正方形的涂色部分面积为s小涂色根据图示可知",
+      "cached_hypothesis": "小正方形的面积为小两个正方形重叠的空白部分面积为小重叠大正方形的涂色部分面积为a大涂色小正方形的涂色部分面积为a小涂色根据图示可知"
+    },
+    {
+      "id": "3546",
+      "model": "control",
+      "file": "audio/03546__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_3546.wav",
+      "sha256": "9f6fc4ac55172e5e679bb557e7384ffebecf75b7866b0d3bb9bab5abb6883d35",
+      "bytes": 1263404,
+      "cached_reference": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一二第二题三分之五除以十",
+      "cached_hypothesis": "我们可以利用除以一个数等于乘以这个数的倒数这一法则来进行计算以下是这三道题的详细脱式计算过程一第一题十三分之六除以六等于十三分之六乘以六分之一等于十三分之一等于十三分之一二第二题三分之五除以十"
+    },
+    {
+      "id": "6729",
+      "model": "control",
+      "file": "audio/06729__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_6729.wav",
+      "sha256": "6811e5f4f815152b662bf594a8a95a3538f7221bca29cd3416fda8af89bb0661",
+      "bytes": 1440044,
+      "cached_reference": "深呼吸轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人声台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上",
+      "cached_hypothesis": "生活需轻柔鸟鸣加微风声背景音乐起钢琴加弦乐二二点五秒少年抬头望向远方朝阳嘴角微扬轻声说早安梦想人生台词温柔坚定字幕同步显示三二点五秒他迈步向前奔跑阳光洒在背影上"
+    },
+    {
+      "id": "7086",
+      "model": "control",
+      "file": "audio/07086__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_7086.wav",
+      "sha256": "8c70ea59ccbec81b17f9f92938db6fabe531341577f26e84dc3a8ef746f1ae2b",
+      "bytes": 1144364,
+      "cached_reference": "尺码代码英文全称中文含义适合人群或体型参考xxsextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群ssmall小号适合身材偏瘦的人mmedium中号适合一般标准体型",
+      "cached_hypothesis": "尺码代码英文全称中文含义适合人群或体型参考amorioxbexeraextraextrasmall超小号体型非常娇小xsextrasmall加小号比小号更小适合瘦小人群amorio中号适合一般标准体型"
+    },
+    {
+      "id": "9000",
+      "model": "control",
+      "file": "audio/09000__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_9000.wav",
+      "sha256": "9a9db06e209ae1c35b948cb77013b1b4abf2637729ba5ae8b0f1e2d7402b4f62",
+      "bytes": 994604,
+      "cached_reference": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为括号a加b加c括回的平方方法二部分求和大正方形被分割成了九个小图形包括",
+      "cached_hypothesis": "观察图二这是一个边长为a加b加c的大正方形方法一整体计算大正方形的边长为a加b加c其面积为a加b加c的平方方法二部分求和大正方形被分割成了九个小图形包括"
+    },
+    {
+      "id": "9137",
+      "model": "control",
+      "file": "audio/09137__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_9137.wav",
+      "sha256": "ad132c03c0d436fbb4b6b9f37ee3bcfef6e932a776846e0ab3fe6b2d698e8148",
+      "bytes": 721964,
+      "cached_reference": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三万八千一百八十一名",
+      "cached_hypothesis": "一分数门槛二零二五年该专业在广西的录取最低分为五百二十八分二位次参考对应的最低录取位次为三水八万一千八幺名"
+    },
+    {
+      "id": "9764",
+      "model": "control",
+      "file": "audio/09764__control.wav",
+      "source": "tn_distill_runs/full_0824_reading_position_v1/acceptance/control-step-00009061/wav/reading_control_whole_9764.wav",
+      "sha256": "801e7d5f86ee446603fc737bcbdc031a701dcaad026b7259b520772f8125bb0c",
+      "bytes": 1086764,
+      "cached_reference": "比较维度债务资本权益资本wacc计算时的处理支付对象债权人银行或债主股东支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用",
+      "cached_hypothesis": "比较维度债务资本权益资本wac计算时的处理支付对象债权人银行或债主股东地商支付时间税前支付先付息后交税税后分配先交税后分红税务影响有抵税作用降低实际成本无抵税作用"
+    },
+    {
+      "id": "10",
+      "model": "index_raw",
+      "file": "audio/00010__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/00010.wav",
+      "sha256": "65f13b50cbce8f6fdc24450088c3d1f9ffc6595522ec13a947b98d3b7cd982df",
+      "bytes": 1046176,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "拆个人进阶版尊pro拆管原传月提供更多积分额度和云服务资源纯团端赔个人高级版尊牌尊院提供更高的积分额度和更丰富的服务请注意trapro版和max版的价格为限时折扣后续价格将分别调整为tra原传月和tra原传月"
+    },
+    {
+      "id": "3391",
+      "model": "index_raw",
+      "file": "audio/03391__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/03391.wav",
+      "sha256": "7f2b97f701a174405ad363761704bdf852d8d4152b538c9b759ead2270f20887",
+      "bytes": 914196,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "菜对比猎豹每秒只能移动约三倍体长的距离完全无法与之相比速度之王对比表之类别g冠军名称是最高速度g备注追讨军备菜团宇宙极限菜太光菜来窜三十万kms的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "index_raw",
+      "file": "audio/03584__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/03584.wav",
+      "sha256": "f90c958a32686c01e916a11d64021cde2a4ab782521247c1b581c9f3cea91c4e",
+      "bytes": 323116,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘十二等于四十八个方格",
+      "cached_hypothesis": "串辍确定总方格数串图形为串行处列共串次times串个方格"
+    },
+    {
+      "id": "5074",
+      "model": "index_raw",
+      "file": "audio/05074__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/05074.wav",
+      "sha256": "ca708de818c6927f53fd976b98acfb8b2a853f6d11bd7a88b174995a271728d9",
+      "bytes": 915104,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键踩一旦误触系统就会认为你需要开启辅助功能宽腿华为错荣耀是通常是同时按住拖音量上键和音量下键拖音量下键拖秒"
+    },
+    {
+      "id": "5251",
+      "model": "index_raw",
+      "file": "audio/05251__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/05251.wav",
+      "sha256": "d8893781570d56ee6fc9c4e18ba1faa20966e4aa9dd7bc3da44fa1bb0ed8bef8",
+      "bytes": 665248,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种花给你几个常见的种植场景参考一下图文多如果是花盆左阳台盆栽砖普通花盆左直径减七cmcm建议带颗碎"
+    },
+    {
+      "id": "5741",
+      "model": "index_raw",
+      "file": "audio/05741__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/05741.wav",
+      "sha256": "4ba9cc9af596e331827ba5dd52c23baf878ea88548aa736620916995b9e1dbf4",
+      "bytes": 822944,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "参采注意大风穿越日和穿日虽然是大晴天但风力较大尤其是台日风力可能达到串级外出请注意防风穿穿台防晒虽晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "index_raw",
+      "file": "audio/06014__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/06014.wav",
+      "sha256": "ce12117dca6965af8db7cc83c410f2819ca06364dcc5cd445c5556ce4d0c47de",
+      "bytes": 815776,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌是录音版权多而是他拥有的零词曲版权treepublishingrights的turntv曲库tredbeatles版权传奇的偷这是他最传奇的投资传奇"
+    },
+    {
+      "id": "7352",
+      "model": "index_raw",
+      "file": "audio/07352__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/07352.wav",
+      "sha256": "20eb045bacb6ff514ac8ab016acdf23eea17aba579d3af907d65854568dccd12",
+      "bytes": 1015968,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度染发量以及你是否自己操作染段短发脱发量少爽约段分钟等长发脏发量多讲发量多倒约百分分钟虽建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均匀圈圈拼"
+    },
+    {
+      "id": "7775",
+      "model": "index_raw",
+      "file": "audio/07775__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/07775.wav",
+      "sha256": "ab957a83bb5ca83c5d5e180aec2b0a1e309a4f8673d2947da6d2a3fb2853d8d6",
+      "bytes": 931488,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "统一单位对为了方便用小数计算我们可以将所有的金额单位统一换算成注元段款换算左边的数trax的元零twotext分谱音因为trax的元twotext分谱着所以零text部分谱text的元度主稳定"
+    },
+    {
+      "id": "8877",
+      "model": "index_raw",
+      "file": "audio/08877__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/08877.wav",
+      "sha256": "8d0cf7166f152b5e99b9bca03b5b447e21c18fee015b423a8bb39d64b5948914",
+      "bytes": 1081620,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "这款高效充电追分钟可为iphone充至再债效率高全排安全可靠已通过新国标测试采用苹果原厂电芯和智能盾安全系统栅塔容量适中八美池容量足够一天使用便携信号长跑价格区间炸冤染方款日常通勤与高性价比追小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "index_raw",
+      "file": "audio/08914__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/08914.wav",
+      "sha256": "14d56a5111f8d50290fc9b47da042554b906ec0b0dd38e2fa685fc986beb965d",
+      "bytes": 1436552,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "喘喘喘快走最速度约喘dkmh身体微热退退分钟快百慢跑肺速度约快mh可以说话但微喘喘讨分钟喘端讨跳绳转中速约踹次转分转中转短游泳转自由泳或蛙泳中等速度中动转动转笨中转的骑自行车转团休闲骑行速度约踹kmh踹分钟踹分钟"
+    },
+    {
+      "id": "9518",
+      "model": "index_raw",
+      "file": "audio/09518__index_raw.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_raw/wav/09518.wav",
+      "sha256": "dd5d34d000ef801e0e1fb3422c65f1a2d995bab516c574e6be31ed8b588b818b",
+      "bytes": 1167636,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说这如果夜间气温低于c档必须做覆盖如果气温稳定在thecc以上则做不需要做覆盖甚至覆盖反而有害桌以下是详细的判断标准和操作建议众多桌什么时候需要覆盖砖保温for黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖吃"
+    },
+    {
+      "id": "10",
+      "model": "index_tn",
+      "file": "audio/00010__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/00010.wav",
+      "sha256": "ef254098de9994ce3948a45696ba07c1ca98bda869c4247ad78082b66e1550e4",
+      "bytes": 1146528,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "台宽载个人进阶版pro版每月三十九元囤提供更多积分额度和云服务资源全台宽载个人高级版max版载包每月八十九元囤提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为每月八十九元和每月一百九十九元"
+    },
+    {
+      "id": "3391",
+      "model": "index_tn",
+      "file": "audio/03391__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/03391.wav",
+      "sha256": "88798c9e8d4b286b52244f094dec86ac648f5440b071d78d9fca055a180318e3",
+      "bytes": 1007892,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "它对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比催速度之王对比表催类别区冠军名称破最高速度脱备注破吞吞短吞堵宇宙极限吞短光lightstwenty万三十万km左区物理法则的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "index_tn",
+      "file": "audio/03584__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/03584.wav",
+      "sha256": "64c174702d2836471ff4518cd8fb894d20dad0272037ef2813689cd4f3462446",
+      "bytes": 369708,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "伊泰确定总方格数的图形为四行十二列共四美元times十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "index_tn",
+      "file": "audio/05074__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/05074.wav",
+      "sha256": "e64c57505b3da2c43798ea7845967e0f8d474d60ff043ec29a478c73ef4f0089",
+      "bytes": 780960,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能开寸华为及荣耀通常是同时按住缺音量上键缺音量下键居三秒"
+    },
+    {
+      "id": "5251",
+      "model": "index_tn",
+      "file": "audio/05251__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/05251.wav",
+      "sha256": "130f17aff56c10e69fd681332f3726e64f1e8c448bb0c77706a86a9b15dce060",
+      "bytes": 671392,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下十周如果是花盆这阳台盆栽只有普通花盆直径二十到三十厘米a建议选一棵追懒"
+    },
+    {
+      "id": "5741",
+      "model": "index_tn",
+      "file": "audio/05741__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/05741.wav",
+      "sha256": "433633e58a7808032a713f3d189677100d5e6058a2142914b1427ab0f59fd19a",
+      "bytes": 826528,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "台青注意大风台四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四减五级外出请注意防风在防晒时晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "index_tn",
+      "file": "audio/06014__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/06014.wav",
+      "sha256": "b7da2586dd1a5ca4b01a2b1502f29ae1ed72b561a7d0a71d8fc306e75c161f72",
+      "bytes": 709280,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的类词曲版权publishingrightstompatv曲库thebeatles版权在这是他最传奇的投资"
+    },
+    {
+      "id": "7352",
+      "model": "index_tn",
+      "file": "audio/07352__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/07352.wav",
+      "sha256": "312befc02b2e57367978e81d09970044c10a84491bfa42accee66613b29a4e16",
+      "bytes": 1083552,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作吹短发吹发量少吹约十五到二十分钟吹长发吹发量多吹约三十到四十五分钟崔建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均崔灰二"
+    },
+    {
+      "id": "7775",
+      "model": "index_tn",
+      "file": "audio/07775__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/07775.wav",
+      "sha256": "203d47857a22bdcdc1bf8ac341749608aa2635c263f6a1e93e255635068818de",
+      "bytes": 863392,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九text元零块七text分块因为一text的元串一百text的分分所以七text的分块零点零七text的元"
+    },
+    {
+      "id": "8877",
+      "model": "index_tn",
+      "file": "audio/08877__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/08877.wav",
+      "sha256": "0ecc91b37b2eba15ffbdb3c9ecf86fb6570f789a3096fc3fb0f1e4811277cd75",
+      "bytes": 1302176,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "特浅高效充电圈待二十分钟可为iphone充至百分之五十效率高特浅可靠多百通过新国标测试采用苹果原厂电芯和智能盾安全系统钛材容量适中十一万米ah容量足够一天使用便携性好派价格区间大文约一百九十九元缓三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "index_tn",
+      "file": "audio/08914__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/08914.wav",
+      "sha256": "5124f8172e8ff8e18de9cfbc50a232744448afdb9fef2c1e2d4077a4c8307dc2",
+      "bytes": 1773448,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "滩川穿快走穿速度约每小时五到六公里身体微热穿六十减七十分钟穿穿跑慢跑穿速度约每小时八公里可以说话但微喘三十五减四十五分钟穿穿跳绳穿中速约一百减一百二十次快分穿二十五减三十分钟滩川端游泳或蛙泳自由泳或蛙泳中等速度追穿三十减四十分钟追松追自行车追险骑行速度约每小时十五到二十公里追五十减六十分钟追分钟追香五十分钟"
+    },
+    {
+      "id": "9518",
+      "model": "index_tn",
+      "file": "audio/09518__index_tn.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/indextts2_tn/wav/09518.wav",
+      "sha256": "8c9a8de6a6e19088a1dc79e336c0df0f3d1364da088a7160a5f2dce57cce9589",
+      "bytes": 1252628,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于零下十五摄氏度leg必须追覆盖如果气温稳定在零十八摄氏度到二十摄氏度零以上则追不需要覆覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议皮柄什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况时一定要盖灵芝"
+    },
+    {
+      "id": "10",
+      "model": "cosy",
+      "file": "audio/00010__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/00010.wav",
+      "sha256": "c67df66b2899158c22850acb462ce3972f5a455bdecb7bd72b0573a24561b513",
+      "bytes": 1263404,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "阿什塔阿什切个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月"
+    },
+    {
+      "id": "3391",
+      "model": "cosy",
+      "file": "audio/03391__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/03391.wav",
+      "sha256": "7c1df779d31b83288b63a66e9361c05d6d0d891ceefa78799208368edad382f5",
+      "bytes": 1102124,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "asteriskasteriskasterisk对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比警警警速度之王对比表类比冠军名称最高速度备注宇宙极限光lighten三十万kb每秒物理法则的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "cosy",
+      "file": "audio/03584__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/03584.wav",
+      "sha256": "b51128a17ec8c826a0e00dff6bec0b4a4beab14d3c0626e63444e9e8dbc16fb0",
+      "bytes": 397484,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "以确定总方格数图形为四行十二列共四美元times十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "cosy",
+      "file": "audio/05074__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/05074.wav",
+      "sha256": "ac9e2a4470dfe4a9546bc686d7958270607c6f2cb676573c94000ba8b2c7e2f9",
+      "bytes": 869804,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为荣耀通常是同时按住音量上键加音量下键下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "cosy",
+      "file": "audio/05251__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/05251.wav",
+      "sha256": "f45a0179f687acead0a05c563019b9bf1ea55f34812204fd5ead14b1e17fb83d",
+      "bytes": 760364,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆或阳台盆栽普通花盆直径二十到三十厘米建议一颗"
+    },
+    {
+      "id": "5741",
+      "model": "cosy",
+      "file": "audio/05741__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/05741.wav",
+      "sha256": "ce5be0b938024c08bfda6dbbef74e9e8d848faac6403a9d8c71e4e8a875efc15",
+      "bytes": 883244,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风好防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "cosy",
+      "file": "audio/06014__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/06014.wav",
+      "sha256": "1647171bcf3acae2c9151d20fb2befcb5aace3d9375f07a122cae3178ff97619",
+      "bytes": 714284,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔b杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "7352",
+      "model": "cosy",
+      "file": "audio/07352__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/07352.wav",
+      "sha256": "0156187f49ed0cbe65281531549de8f83440a4bfae3a8d6d9f7eaf5fbe6565d7",
+      "bytes": 1123244,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均就剪设剪精剪二"
+    },
+    {
+      "id": "7775",
+      "model": "cosy",
+      "file": "audio/07775__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/07775.wav",
+      "sha256": "6f7d1d4286f252641ccd9f038bf3c7f0f312932122af25eb568be70ea1f76924",
+      "bytes": 1188524,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九text元零七text分因为一text元等于一百text分所以七text分等于零点零七text元"
+    },
+    {
+      "id": "8877",
+      "model": "cosy",
+      "file": "audio/08877__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/08877.wav",
+      "sha256": "62d1ac97794044a5ecd26a47ceff0f4a0676f75065245966300df2790157c754",
+      "bytes": 1489964,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "ssssssssss高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元仅仅仅三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "cosy",
+      "file": "audio/08914__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/08914.wav",
+      "sha256": "b854b264362b73c8e34080d568108eef942905a3ca325f4bd0d0e4bd3e1ddc7e",
+      "bytes": 2569004,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "ssss快走速度约五到六卡米ss身体微热六十七十分钟闲慢跑速度约八卡米s可以说话但微喘三十五到四十五分钟一闲是去闲中速约一百至一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度骑自行车休闲骑行速度约三十至二十分钟骑自行车休闲骑行速度约十五三十至四十分钟骑自行车休闲骑行无骑自行车休闲骑行速度约十五至二十行进s行二十至"
+    },
+    {
+      "id": "9518",
+      "model": "cosy",
+      "file": "audio/09518__cosy.wav",
+      "source": "tn_distill_runs/full_0824_cosyvoice_cachefix_v1/cosyvoice3/wav/09518.wav",
+      "sha256": "0598e3e3e9a5a7d109ba29c5a4b75a1d02cec27b45be77fea21dee6bfa0a27f3",
+      "bytes": 1445804,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度至二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议井井井什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "10",
+      "model": "vox",
+      "file": "audio/00010__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/00010.wav",
+      "sha256": "c283eedf59543312521ac14eeced5acbe079ba1c670439141119394088ac9221",
+      "bytes": 2211884,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "deskic个人进阶版每月三十九元提供更多积分额度和云服务资源个人高级版每月三十九元提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为每月三十九元和一百九十九元"
+    },
+    {
+      "id": "3391",
+      "model": "vox",
+      "file": "audio/03391__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/03391.wav",
+      "sha256": "24af19d0ad3ac650763784ebc195dcd2c2b153bd08c3f9921a753f259dc38056",
+      "bytes": 1751084,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "大比伯号猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注括号宇宙极限光号光三十万klo物理法则的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "vox",
+      "file": "audio/03584__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/03584.wav",
+      "sha256": "fbf1e3c02332857cd1f62aae6a6211b1e31d6260841a482c8dc608c92c950bc7",
+      "bytes": 814124,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "ideaasterisk确定总方格数图形为四行十二列共四times十二等四three倍"
+    },
+    {
+      "id": "5074",
+      "model": "vox",
+      "file": "audio/05074__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/05074.wav",
+      "sha256": "6330e4d650687970038171ef8d6078bcd3410a7866c57314dc9df19c61fc8ec3",
+      "bytes": 1597484,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为荣耀通常是同时按住音量上键加音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "vox",
+      "file": "audio/05251__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/05251.wav",
+      "sha256": "0b9b36b093592c4092c6b14d38c4ec831d440475ba8fcde62480eb20059774e9",
+      "bytes": 1228844,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十减三十厘米建议一棵"
+    },
+    {
+      "id": "5741",
+      "model": "vox",
+      "file": "audio/05741__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/05741.wav",
+      "sha256": "cd8f942775f6c009bc8d43f94edf1ea47170f4e2f656e9d6ba4886d40d5aca5c",
+      "bytes": 1643564,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "这日灭大风发四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四减五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "vox",
+      "file": "audio/06014__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/06014.wav",
+      "sha256": "3090a21887deacc22bb25fc4e0371b4e78e7994ce1f5dc67c53dbadf8e047d36",
+      "bytes": 1520684,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权陌生物这是他最传奇的投资"
+    },
+    {
+      "id": "7352",
+      "model": "vox",
+      "file": "audio/07352__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/07352.wav",
+      "sha256": "0a57c5eb928db918eb96b14baa5370b03b33ce9f28ca432de2d139fa5664bfd7",
+      "bytes": 3072044,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作傅师短发量少约十五二十分钟傅师长发发量多约三十四十五分钟傅师师建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "vox",
+      "file": "audio/07775__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/07775.wav",
+      "sha256": "885801be4ccd260036947a2da46ee14fdbc6aa5ad559d16461690a6c41cd03bf",
+      "bytes": 2012204,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九text元零七text分因为一text元等于一百text分所以七text分等于零点零七text元"
+    },
+    {
+      "id": "8877",
+      "model": "vox",
+      "file": "audio/08877__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/08877.wav",
+      "sha256": "e488c774efd316333785c9192a8f08c8228978feef38b595a0d9d760dda31067",
+      "bytes": 2580524,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "vox",
+      "file": "audio/08914__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/08914.wav",
+      "sha256": "4005820bf706df65e6790d402c1f61e822dddc6f51b0d054cd8556b0a8475f5f",
+      "bytes": 2780204,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "开走用尼根速度约五减六kilometer小时位移身体微热六十五减七十分钟五省的慢跑的呼吸速度约八尼德等速物体可以说话但微喘三十五减四十五分钟呼绳跳绳走中中速约一百讲一百二十次分二十五减三十分钟呼绳的游泳或蛙泳中等速度三十减四十分钟呼绳骑自行车休闲骑行速度约一十五讲六十kilometer小时跳六可十分钟"
+    },
+    {
+      "id": "9518",
+      "model": "vox",
+      "file": "audio/09518__vox.wav",
+      "source": "tn_distill_runs/full_0824_external_tts_v1/voxcpm2/wav/09518.wav",
+      "sha256": "7f0268e83c9e6496d991416469183479ffc9381b2dde3bb4d8bec077a823f8e5",
+      "bytes": 2841644,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度物必须覆盖如果气温稳定在十八摄氏度及二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "10",
+      "model": "fire",
+      "file": "audio/00010__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/00010.wav",
+      "sha256": "05ca875e47aea1bd9b211df62e9d0d567320c4ae01e5463962bd2dab3866440e",
+      "bytes": 1029164,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版thepro满月三十九元提供更多积分额度和云服务资源个人高级版themax满月八十九元提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为每月八十九元和每月一百九十九元"
+    },
+    {
+      "id": "3391",
+      "model": "fire",
+      "file": "audio/03391__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/03391.wav",
+      "sha256": "b4b16c49694f93430a1945dd267d2f4b37db7372c694c3dedf828b97e87c8da0",
+      "bytes": 798764,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限恒光light三十万kms彭里法则的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "fire",
+      "file": "audio/03584__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/03584.wav",
+      "sha256": "63885eb37cfeef3379729cb0d68b791e30b5ea9daa51f4d6222b8d641a0cba59",
+      "bytes": 391724,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四美元times十二等于四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "fire",
+      "file": "audio/05074__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/05074.wav",
+      "sha256": "fa3d7d82f64926e909e15ecfae0b63e410139c9993ec707e0d7fcc6b39ea5207",
+      "bytes": 760364,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为荣耀通常是同时按住音量上键音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "fire",
+      "file": "audio/05251__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/05251.wav",
+      "sha256": "7444c5569ad53e6a9aef7c6bc3c246564b847150851d9e236306fa48dffb432b",
+      "bytes": 606764,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米单一一颗"
+    },
+    {
+      "id": "5741",
+      "model": "fire",
+      "file": "audio/05741__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/05741.wav",
+      "sha256": "66cb7a64703fa2f3c4a1523834116ec3793ddb8c33ea04274578f8da7932f1fb",
+      "bytes": 745004,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四减五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "fire",
+      "file": "audio/06014__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/06014.wav",
+      "sha256": "afd5c5d3d3a163da77da763935c6cfa06d776867b295c040374d126a26d82e85",
+      "bytes": 734924,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsrtv曲库thebeatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "7352",
+      "model": "fire",
+      "file": "audio/07352__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/07352.wav",
+      "sha256": "854d196b682259459f43c02c42de1da539034aab5232feefecf3d1ffe02ddd9d",
+      "bytes": 1034444,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作长发发量少害十五到二十分钟害发发量多害三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "fire",
+      "file": "audio/07775__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/07775.wav",
+      "sha256": "e8e34bbd196a72a46226a08adad4674e42b05927ceb832a84e9665a8a38a3165",
+      "bytes": 842444,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一z一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二算算左边的数九text元零七text分因为一text元一百text分所以七text分零点零七text元"
+    },
+    {
+      "id": "8877",
+      "model": "fire",
+      "file": "audio/08877__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/08877.wav",
+      "sha256": "534a6dbafb6c6df710af4a6cfaaf3c48434fe9b7c8b06eaa723a06b23d89a7f0",
+      "bytes": 1118924,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万mah容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "fire",
+      "file": "audio/08914__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/08914.wav",
+      "sha256": "64046a21f984b053c1bef9aff963cb80a3d9f5d95eb85bd078143d8e68214032",
+      "bytes": 1290284,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约每小时五到六公里身体微热六十减七零分钟慢跑速度约每小时八公里可以说话但微喘三十五减四五分钟跳绳中速约一百减一百二十次分二十五减三零分钟游泳自游泳或蛙泳中等速度三十减四零分钟骑自行车休闲骑行速度约每小时十五到二十公里五十减六零分钟"
+    },
+    {
+      "id": "9518",
+      "model": "fire",
+      "file": "audio/09518__fire.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/fireredtts3_tn/wav/09518.wav",
+      "sha256": "2d1a5105eaabee37d8d160486a54660da59ef04365e8369b82bf76009ef80e26",
+      "bytes": 1234124,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温南瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖"
+    },
+    {
+      "id": "10",
+      "model": "xtts",
+      "file": "audio/00010__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/00010.wav",
+      "sha256": "32e8d801df8ae092b59342fc85a13d6ded28e46c6dc3202cfa80180c212d9b8e",
+      "bytes": 1205804,
+      "cached_reference": "个人进阶版pro三十九元每月提供更多积分额度和云服务资源个人高级版max八十九元每月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元每月和一百九十九元每月",
+      "cached_hypothesis": "个人进阶版pro三十九元月提供更多积分额度和云服务资源个人高级版max八十九元月提供更高的积分额度和更丰富的服务请注意pro版和max版的价格为限时折扣后续价格将分别调整为八十九元月和一百九十九元月卧槽"
+    },
+    {
+      "id": "3391",
+      "model": "xtts",
+      "file": "audio/03391__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/03391.wav",
+      "sha256": "7d28fbf5d9bd07b349519b9bc56211eccbb573f8081c65728e71bceb96df2c58",
+      "bytes": 878124,
+      "cached_reference": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注宇宙极限光light三十万千米每秒物理法则的极限不可超越",
+      "cached_hypothesis": "对比猎豹每秒只能移动约十六倍体长的距离完全无法与之相比速度之王对比表类别冠军名称最高速度备注冠军名称最高速度备注目录宇宙极限光速三十万kms物理法则的极限不可超越"
+    },
+    {
+      "id": "3584",
+      "model": "xtts",
+      "file": "audio/03584__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/03584.wav",
+      "sha256": "3b60828f1f38fc6a3c157bb9e117439cd76c409efd3c20995b069c1f02549429",
+      "bytes": 345132,
+      "cached_reference": "一确定总方格数图形为四行十二列共四乘以十二等于四十八个方格",
+      "cached_hypothesis": "一确定总方格数图形为四行十二列共四times十二四十八个方格"
+    },
+    {
+      "id": "5074",
+      "model": "xtts",
+      "file": "audio/05074__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/05074.wav",
+      "sha256": "5c6184b3de1200a2b29010c8d0cb4e84b738ea14c525138a08c65a14b0f0140c",
+      "bytes": 763948,
+      "cached_reference": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为和荣耀通常是同时按住音量上键加音量下键三秒",
+      "cached_hypothesis": "为了方便视障人士手机系统默认设置了一个组合键通常是音量键一旦误触系统就会认为你需要开启辅助功能华为荣耀通常是同时按住音量上键音量下键三秒"
+    },
+    {
+      "id": "5251",
+      "model": "xtts",
+      "file": "audio/05251__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/05251.wav",
+      "sha256": "a39cf90f79d8213a5186c777eb0530989741f6d9743258a84cfcb351f64b4f6d",
+      "bytes": 648236,
+      "cached_reference": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十到三十厘米建议一棵",
+      "cached_hypothesis": "主要看你准备用多大的地方来种给你几个常见的种植场景参考一下如果是花盆阳台盆栽普通花盆直径二十三十厘米建议一颗一颗"
+    },
+    {
+      "id": "5741",
+      "model": "xtts",
+      "file": "audio/05741__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/05741.wav",
+      "sha256": "9d9ab1896a609a997cfbbd10de6ab45b37f9ce443331b19856d892ef6c0e52ad",
+      "bytes": 712748,
+      "cached_reference": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四到五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施",
+      "cached_hypothesis": "注意大风四月二十三日和二十七日虽然是大晴天但风力较大尤其是二十七日风力可能达到四五级外出请注意防风防晒晴天紫外线较强出门记得做好防晒措施"
+    },
+    {
+      "id": "6014",
+      "model": "xtts",
+      "file": "audio/06014__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/06014.wav",
+      "sha256": "af4af0c265e9f75178162f2cd9921fd86f998230ef4f0877f186c44c4034cb18",
+      "bytes": 892972,
+      "cached_reference": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightsatv曲库thebeatles版权这是他最传奇的投资",
+      "cached_hypothesis": "迈克尔杰克逊的财富构成中最核心的资产并不是他唱的歌录音版权而是他拥有的词曲版权publishingrightspublishingrightsaddictivemusic的beatles版权这是他最传奇的投资"
+    },
+    {
+      "id": "7352",
+      "model": "xtts",
+      "file": "audio/07352__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/07352.wav",
+      "sha256": "7aa21cf133037743216331977f9c8b0c7145501f01c5ccfd46a9eef6cd6130ea",
+      "bytes": 1140780,
+      "cached_reference": "这取决于你的头发长度发量以及你是否自己操作短发或发量少约十五到二十分钟长发或发量多约三十到四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二",
+      "cached_hypothesis": "这取决于你的头发长度发量以及你是否自己操作短发发量少约十五二十分钟长发发量多约三十四十五分钟长发发量多约三十四十五分钟建议如果是自己染发动作要快且均匀避免先涂的部分和后涂的部分等待时间差距过大导致颜色不均二"
+    },
+    {
+      "id": "7775",
+      "model": "xtts",
+      "file": "audio/07775__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/07775.wav",
+      "sha256": "9a2545e996b87fdfa4baf75ebc2a9154635854c1104c933f78a63caacb248efa",
+      "bytes": 902188,
+      "cached_reference": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九元零七分因为一元等于一百分所以七分等于零点零七元",
+      "cached_hypothesis": "一统一单位为了方便用小数计算我们可以将所有的金额单位统一换算成元二换算左边的数九text元零七text分元零七text分因为一text元一百text分所以七text分零点零七text元"
+    },
+    {
+      "id": "8877",
+      "model": "xtts",
+      "file": "audio/08877__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/08877.wav",
+      "sha256": "4812b6683b9b7bbd997406fe3efe55fcf03ac2ca1269128b52680a3b063a5df1",
+      "bytes": 971820,
+      "cached_reference": "高效充电二十分钟可为iphone充至百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一万毫安时容量足够一天使用便携性好价格区间约一百九十九元三日常通勤与高性价比小米自带线充电宝",
+      "cached_hypothesis": "高效充电二十分钟可为iphone内充值百分之五十效率高安全可靠通过新国标测试采用苹果原厂电芯和智能盾安全系统容量适中一零零零毫容量足够一天使用便携性好价格区间约一百九十九元三日常通勤高性价比小米自带线充电宝"
+    },
+    {
+      "id": "8914",
+      "model": "xtts",
+      "file": "audio/08914__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/08914.wav",
+      "sha256": "1f27b4bf6a36a391cb9269aac951bcdd6b72c42c36b1ed1cc07a1ef9ff204c78",
+      "bytes": 1492524,
+      "cached_reference": "快走速度约五到六千米每小时身体微热六十到七十分钟慢跑速度约八千米每小时可以说话但微喘三十五到四十五分钟跳绳中速约一百到一百二十次每分二十五到三十分钟游泳自由泳或蛙泳中等速度三十到四十分钟骑自行车休闲骑行速度约十五到二十千米每小时五十到六十分钟",
+      "cached_hypothesis": "快走速度约五六kmh身体微热六十七十分钟慢跑速度约八kmh可以说话但微喘三十五四十五分钟跳绳中速约一百一百二十次分二十五三十分钟游泳自由泳或蛙泳中等速度三十四十分钟骑自行车休闲骑行速度约十五二十kmh五十六十分钟"
+    },
+    {
+      "id": "9518",
+      "model": "xtts",
+      "file": "audio/09518__xtts.wav",
+      "source": "tn_distill_runs/full_0824_additional_tts_v1/xtts_v2/wav/09518.wav",
+      "sha256": "1d447c9a16aab517552649fb4dabb4f61660483011dfdee2c799604dceb9976e",
+      "bytes": 1227820,
+      "cached_reference": "简单来说如果夜间气温低于十五摄氏度必须覆盖如果气温稳定在十八摄氏度到二十摄氏度以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖",
+      "cached_hypothesis": "简单来说如果夜间气温低于十五必须覆盖如果气温稳定在十八二十以上则不需要覆盖甚至覆盖反而有害以下是详细的判断标准和操作建议什么时候需要覆盖保温黄瓜是典型的喜温作物非常怕冷如果你的种植环境符合以下情况一定要盖要认真"
+    }
+  ]
+}
