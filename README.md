@@ -47,11 +47,3 @@ metadata/scores.csv        Per-clip CER, edits, and duration
 metadata/provenance.json   Selection rules, source records, and file hashes
 metadata/validation.json   File integrity and browser checks
 ```
-
-If local browser file policies block playback, run this on **your own machine** in the extracted folder:
-
-```bash
-python -m http.server 8000 --bind 127.0.0.1
-```
-
-Then open `http://127.0.0.1:8000`.
