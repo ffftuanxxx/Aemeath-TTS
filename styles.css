@@ -6,3 +6,15 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .case-sidebar{min-width:0}.case-list{max-width:100%}.text-card pre{font-size:12px}.text-card p{font-size:14px}.transcript p{font-size:13px}
 @media(max-width:800px){.browser{grid-template-columns:minmax(0,1fr)}}
+
+/* Paper authors sit below the title and wrap naturally on narrow screens. */
+.author-info{margin:0 0 24px}
+.author-list,.author-affiliations{display:flex;flex-wrap:wrap;padding:0;list-style:none}
+.author-list{gap:4px 16px;margin:0 0 8px;font-size:15px;line-height:1.7}
+.author-list li{white-space:nowrap}
+.author-info sup{font-size:10px;color:var(--teal)}
+.author-list sup{margin-left:2px}
+.author-affiliations{gap:2px 14px;margin:0;color:var(--muted);font-size:12px;line-height:1.8}
+.author-affiliations sup{margin-right:4px}
+@media(max-width:800px){.author-list{gap:3px 13px;font-size:14px}.author-affiliations{font-size:11px}}
+@media(max-width:540px){.author-info{margin-bottom:20px}.author-list{gap:3px 14px}}
