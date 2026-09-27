@@ -68,18 +68,4 @@ Jiecheng Liao<sup>1,2</sup>, Jialun Wu<sup>1</sup>, Zhebo Wang<sup>1,3</sup>, Ji
 
 完整项目正在整理中，当前仓库提供试听 Demo。
 
-<details>
-<summary>引用</summary>
-
-```bibtex
-@misc{liao2026aemeathtts,
-  title  = {Aemeath-TTS: Can One Model Normalize and Speak? Normalization-Aware Modeling for End-to-End Speech Synthesis},
-  author = {Jiecheng Liao and Jialun Wu and Zhebo Wang and Jiawang Liu and Chen Ye and Guanjun Jiang},
-  year   = {2026},
-  url    = {https://github.com/ffftuanxxx/Aemeath-TTS}
-}
-```
-
-</details>
-
 本项目基于 [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)。

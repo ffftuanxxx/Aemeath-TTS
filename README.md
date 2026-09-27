@@ -68,18 +68,4 @@ The [audio demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) offers **2
 
 The full project release is in preparation. This repository currently hosts the listening demo.
 
-<details>
-<summary>Citation</summary>
-
-```bibtex
-@misc{liao2026aemeathtts,
-  title  = {Aemeath-TTS: Can One Model Normalize and Speak? Normalization-Aware Modeling for End-to-End Speech Synthesis},
-  author = {Jiecheng Liao and Jialun Wu and Zhebo Wang and Jiawang Liu and Chen Ye and Guanjun Jiang},
-  year   = {2026},
-  url    = {https://github.com/ffftuanxxx/Aemeath-TTS}
-}
-```
-
-</details>
-
 Built on [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS).
