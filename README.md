@@ -5,7 +5,7 @@
 # Aemeath-TTS
 
 **Can One Model Normalize and Speak?**<br>
-Normalization-Aware Modeling for End-to-End Speech Synthesis
+**Normalization-Aware Modeling for End-to-End Speech Synthesis**
 
 Jiecheng Liao<sup>1,2</sup>, Jialun Wu<sup>1</sup>, Zhebo Wang<sup>1,3</sup>, Jiawang Liu<sup>1</sup>, Chen Ye<sup>1</sup>, Guanjun Jiang<sup>1</sup>
 
