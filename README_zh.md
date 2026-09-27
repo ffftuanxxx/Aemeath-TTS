@@ -53,7 +53,7 @@ Jiecheng Liao<sup>1,2</sup>, Jialun Wu<sup>1</sup>, Zhebo Wang<sup>1,3</sup>, Ji
 **批量推理效率。** Batch size 为 16，以学习式 TN 级联方案为 1×，比较 RTF 的倒数与请求吞吐量，均为越高越好。
 
 <p align="center">
-  <img src="assets/figures/efficiency.png" width="460" alt="Batch-16 推理效率：相对 TN 级联，Aemeath 的 RTF 倒数为 1.34 倍、吞吐为 1.22 倍；Everbright 分别为 1.38 倍和 1.19 倍">
+  <img src="assets/figures/efficiency.png" width="320" alt="Batch-16 推理效率：相对 TN 级联，Aemeath 的 RTF 倒数为 1.34 倍、吞吐为 1.22 倍；Everbright 分别为 1.38 倍和 1.19 倍">
 </p>
 
 ## Demo 与开源进度

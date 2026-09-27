@@ -53,7 +53,7 @@ English | [简体中文](README_zh.md)
 **Batch inference efficiency.** Inverse RTF and request throughput at batch size 16, normalized to the learned-TN cascade (1×). Higher is better.
 
 <p align="center">
-  <img src="assets/figures/efficiency.png" width="460" alt="Batch-16 efficiency relative to the TN cascade: Aemeath reaches 1.34 times inverse RTF and 1.22 times throughput; Everbright reaches 1.38 and 1.19 times">
+  <img src="assets/figures/efficiency.png" width="320" alt="Batch-16 efficiency relative to the TN cascade: Aemeath reaches 1.34 times inverse RTF and 1.22 times throughput; Everbright reaches 1.38 and 1.19 times">
 </p>
 
 ## Demo & Release
