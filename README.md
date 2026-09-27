@@ -58,7 +58,7 @@ English | [简体中文](README_zh.md)
 
 ## Demo & Release
 
-The [audio demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) offers **20 curated examples and 180 audio clips**, with system comparisons and stage ablations. These selected examples complement the benchmark results above. See [listening notes](docs/listening.md) for selection details and local playback.
+The [audio demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) offers **20 examples and 180 audio clips**, with system comparisons and stage ablations. See [listening notes](docs/listening.md) for local playback instructions.
 
 <a id="release-status"></a>
 

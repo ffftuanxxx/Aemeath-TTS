@@ -58,7 +58,7 @@ Jiecheng Liao<sup>1,2</sup>, Jialun Wu<sup>1</sup>, Zhebo Wang<sup>1,3</sup>, Ji
 
 ## Demo 与开源进度
 
-[在线 Demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) 提供 **20 条精选样例、180 段音频**，涵盖系统对比与阶段消融。精选样例用于辅助理解上方基准结果；选例方式与本地试听方法见[试听说明](docs/listening_zh.md)。
+[在线 Demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) 提供 **20 条样例、180 段音频**，涵盖系统对比与阶段消融。本地试听方法见[试听说明](docs/listening_zh.md)。
 
 <a id="开源进度"></a>
 
