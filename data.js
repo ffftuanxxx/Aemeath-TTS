@@ -57,13 +57,13 @@ window.AEMEATH_DEMO = {
     },
     "cosy": {
       "name": "CosyVoice3",
-      "detail": "Completed compatibility-fix rerun",
+      "detail": "Raw-text synthesis",
       "ours": false,
       "frontend": "TN off"
     },
     "vox": {
       "name": "VoxCPM2",
-      "detail": "Original completed accuracy run",
+      "detail": "Raw-text synthesis",
       "ours": false,
       "frontend": "TN off"
     },
@@ -3288,7 +3288,7 @@ window.AEMEATH_DEMO = {
   ],
   "version": "v2",
   "date": "2026-09-20",
-  "selection_notice": "Curated success cases, deliberately selected to illustrate Aemeath-TTS strengths. These are not representative benchmark averages.",
+  "selection_notice": "Audio examples for system comparisons and stage ablations.",
   "selection_counts": {
     "systems_candidates": 287,
     "ablation_candidates": 148

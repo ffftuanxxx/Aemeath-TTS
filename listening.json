@@ -42,12 +42,12 @@
         "wav": "audio/03584__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "以确定总方格数，图形为四行十二列，共四美元 times 十二等于四十八个方格。",
         "wav": "audio/03584__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "idea asterisk确定总方格数，图形为四行十二列，共四 times 十二等四 three 倍。",
         "wav": "audio/03584__vox.wav"
       },
@@ -106,12 +106,12 @@
         "wav": "audio/00010__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "阿什塔阿什切个人进阶版 PRO 三十九元每月，提供更多积分额度和云服务资源。个人高级版 MAX 八十九元每月，提供更高的积分额度和更丰富的服务。请注意，PRO版和MAX版的价格为限时折扣，后续价格将分别调整为八十九元每月和一百九十九元每月。",
         "wav": "audio/00010__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "Deskic个人进阶版每月三十九元，提供更多积分额度和云服务资源。个人高级版每月三十九元，提供更高的积分额度和更丰富的服务。请注意，Pro版和Max版的价格为限时折扣，后续价格将分别调整为每月三十九元和一百九十九元。",
         "wav": "audio/00010__vox.wav"
       },
@@ -170,12 +170,12 @@
         "wav": "audio/07775__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "一统一单位，为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二换算左边的数，九 text 元零七 text 分，因为一 text 元等于一百 text 分，所以七 text 分等于零点零七 text 元。",
         "wav": "audio/07775__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "一、统一单位。为了方便用小数计算，我们可以将所有的金额单位统一换算成元。二、换算左边的数，九text元零七text分，因为一text元等于一百text分，所以七text分等于零点零七text元。",
         "wav": "audio/07775__vox.wav"
       },
@@ -234,12 +234,12 @@
         "wav": "audio/08914__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "S S S S 快走速度约五到六卡米 S S 身体微热，六十七十分钟。闲慢跑速度约八卡米 S，可以说话但微喘，三十五到四十五分钟。一闲是，去闲中速约一百至一百二十次，每分二十五到三十分钟。游泳自由泳或蛙泳，中等速度。骑自行车休闲骑行，速度约三十至二十分钟。骑自行车休闲骑行，速度约十五三十至四十分钟。骑自行车休闲骑行，无骑自行车休闲骑行速度约十五至二十行进 S 行二十至",
         "wav": "audio/08914__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "开走，用尼根速度约五减六kilometer/小时位移，身体微热，六十五减七十分钟。五省的慢跑的呼吸，速度约八尼德等速物体，可以说话但微喘，三十五减四十五分钟。呼绳跳绳走中中速，约一百讲一百二十次分，二十五减三十分钟。呼绳的游泳或蛙泳，中等速度，三十减四十分钟。呼绳骑自行车，休闲骑行，速度约一十五讲六十kilometer/小时，跳六可十分钟。",
         "wav": "audio/08914__vox.wav"
       },
@@ -298,12 +298,12 @@
         "wav": "audio/05251__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆或阳台盆栽，普通花盆直径二十到三十厘米，建议一颗。",
         "wav": "audio/05251__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "主要看你准备用多大的地方来种，给你几个常见的种植场景参考一下。如果是花盆、阳台盆栽、普通花盆，直径二十减三十厘米，建议一棵。",
         "wav": "audio/05251__vox.wav"
       },
@@ -362,12 +362,12 @@
         "wav": "audio/09518__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "简单来说，如果夜间气温低于十五摄氏度，必须覆盖；如果气温稳定在十八摄氏度至二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议。井井井什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
         "wav": "audio/09518__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "简单来说，如果夜间气温低于十五摄氏度，物必须覆盖；如果气温稳定在十八摄氏度及二十摄氏度以上，则不需要覆盖，甚至覆盖反而有害。以下是详细的判断标准和操作建议，什么时候需要覆盖保温？黄瓜是典型的喜温作物，非常怕冷。如果你的种植环境符合以下情况，一定要盖。",
         "wav": "audio/09518__vox.wav"
       },
@@ -426,12 +426,12 @@
         "wav": "audio/05741__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "注意大风，四月二十三日和二十七日虽然是大晴天，但风力较大，尤其是二十七日，风力可能达到四到五级。外出请注意防风，好防晒，晴天紫外线较强，出门记得做好防晒措施。",
         "wav": "audio/05741__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "这日灭大风，发四月二十三日和二十七日，虽然是大晴天，但风力较大，尤其是二十七日，风力可能达到四减五级，外出请注意防风、防晒。晴天紫外线较强，出门记得做好防晒措施。",
         "wav": "audio/05741__vox.wav"
       },
@@ -490,12 +490,12 @@
         "wav": "audio/07352__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "这取决于你的头发长度、发量以及你是否自己操作。短发或发量少，约十五到二十分钟；长发发量多，约三十到四十五分钟。建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。就剪、设剪、精剪二。",
         "wav": "audio/07352__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "这取决于你的头发长度、发量以及你是否自己操作。傅师短发量少，约十五-二十分钟；傅师长发发量多，约三十-四十五分钟。傅师师建议，如果是自己染发，动作要快且均匀，避免先涂的部分和后涂的部分等待时间差距过大，导致颜色不均。二",
         "wav": "audio/07352__vox.wav"
       },
@@ -554,12 +554,12 @@
         "wav": "audio/08877__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "S S S S S S S S S S 高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安时，容量足够一天使用，便携性好，价格区间约一百九十九元，仅仅仅三，日常通勤与高性价比，小米自带线充电宝。",
         "wav": "audio/08877__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "高高效充电，二十分钟可为 iPhone 充至百分之五十，效率高，安全可靠，通过新国标测试，采用苹果原厂电芯和智能盾安全系统，容量适中，一万毫安容量足够一天使用，便携性好，价格区间约一百九十九元。三，日常通勤与高性价比，小米自带线充电宝。",
         "wav": "audio/08877__vox.wav"
       },
@@ -618,12 +618,12 @@
         "wav": "audio/05074__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀，通常是同时按住音量上键加音量下键下键三秒。",
         "wav": "audio/05074__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "为了方便视障人士，手机系统默认设置了一个组合键，通常是音量键。一旦误触，系统就会认为你需要开启辅助功能。华为、荣耀通常是同时按住音量上键、加音量下键三秒。",
         "wav": "audio/05074__vox.wav"
       },
@@ -682,12 +682,12 @@
         "wav": "audio/06014__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "迈克尔·B·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）、ATV曲库、The Beatles版权。这是他最传奇的投资。",
         "wav": "audio/06014__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "迈克尔·杰克逊的财富构成中最核心的资产，并不是他唱的歌录音版权，而是他拥有的词曲版权（publishing rights）、ATV曲库、The Beatles版权、陌生物，这是他最传奇的投资。",
         "wav": "audio/06014__vox.wav"
       },
@@ -746,12 +746,12 @@
         "wav": "audio/03391__index_raw.wav"
       },
       {
-        "model": "CosyVoice3 — Completed compatibility-fix rerun",
+        "model": "CosyVoice3 — Raw-text synthesis",
         "asr": "asterisk asterisk asterisk 对比猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。警警警速度之王对比表类比冠军名称，最高速度，备注宇宙极限光 lighten 三十万 kb 每秒物理法则的极限不可超越。",
         "wav": "audio/03391__cosy.wav"
       },
       {
-        "model": "VoxCPM2 — Original completed accuracy run",
+        "model": "VoxCPM2 — Raw-text synthesis",
         "asr": "大比伯号，猎豹每秒只能移动约十六倍体长的距离，完全无法与之相比。速度之王对比表，类别冠军名称，最高速度，备注（括号宇宙极限光号，光三十万klo，物理法则的极限，不可超越）。",
         "wav": "audio/03391__vox.wav"
       },

@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Selected audio examples for Aemeath-TTS: end-to-end text normalization and speech synthesis.">
+  <meta name="description" content="Audio examples for Aemeath-TTS: end-to-end text normalization and speech synthesis.">
   <title>Aemeath-TTS · Audio Demo</title>
   <link rel="icon" type="image/png" href="assets/Polestar.png">
   <link rel="stylesheet" href="styles.css?v=20260922-byline">
-  <script src="data.js" defer></script>
+  <script src="data.js?v=20260927-copy" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -19,7 +19,7 @@
   <main id="top">
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="live-dot"></span> AEMEATH-TTS / AUDIO SHOWCASE</div>
+        <div class="eyebrow"><span class="live-dot"></span> AEMEATH-TTS / AUDIO DEMO</div>
         <h1 id="hero-title">Can one model<br><em>normalize</em> and speak?</h1>
         <p class="hero-description">From complex written text to spoken language.<br>Listen to end-to-end normalization, coverage-aware learning,<br class="desktop-break"> and explicit reading-position supervision.</p>
         <a class="primary-link" href="#listening">Explore the audio <span aria-hidden="true">↓</span></a>
@@ -56,7 +56,7 @@
       <div class="module"><img src="assets/Polestar.png" alt="" loading="lazy"><div><span class="module-index">03 / LOCATE</span><h2>Polestar</h2><p>Explicit reading-position supervision</p></div></div>
     </section>
     <section class="listening wrap" id="listening" aria-labelledby="listening-title">
-      <div class="section-heading"><div><div class="eyebrow">LISTEN CLOSELY</div><h2 id="listening-title">The same text. Different readings.</h2></div><div class="selection-count"><strong>20</strong><span>selected examples<br>12 model / variant configurations</span></div></div>
+      <div class="section-heading"><div><div class="eyebrow">LISTEN CLOSELY</div><h2 id="listening-title">The same text. Different readings.</h2></div><div class="selection-count"><strong>20</strong><span>examples<br>12 model / variant configurations</span></div></div>
       <div class="tabs" role="tablist" aria-label="Example sets">
         <button id="tab-systems" role="tab" aria-controls="example-panel" aria-selected="true" data-section="systems">System comparison <span>12</span></button>
         <button id="tab-ablations" role="tab" aria-controls="example-panel" aria-selected="false" data-section="ablations">Stage & module comparisons <span>8</span></button>
@@ -79,7 +79,7 @@
           <button id="expand-text" class="text-toggle" aria-expanded="false">Expand full text <span aria-hidden="true">↓</span></button>
           <div class="audio-heading"><h4>Listen & compare <span id="track-count"></span></h4><label class="transcript-toggle"><input id="show-transcripts" type="checkbox"> Show ASR transcripts</label></div>
           <div class="compare-toolbar"><span>Quick A/B</span><span class="featured-label">Polestar · position-only</span><span aria-hidden="true">→</span><label class="sr-only" for="compare-model">Comparison model</label><select id="compare-model"></select><button id="play-pair">Play A → B</button><button id="stop-audio" aria-label="Stop all audio">Stop</button></div>
-          <p class="metric-explainer">Displayed CER is the existing ASR-based character error rate <strong>for this clip</strong>; it does not measure voice quality. Lower is better.</p>
+          <p class="metric-explainer">CER compares <strong>this clip’s ASR transcript</strong> with the accepted reading. Lower is better.</p>
           <div id="tracks" class="tracks"></div>
           <div class="case-bottom"><span>All players start at normal speed and original volume.</span><button id="next-bottom">Next example <span aria-hidden="true">→</span></button></div>
         </div>
@@ -88,11 +88,11 @@
       <noscript><p>This offline demo needs JavaScript for example navigation. You can also open <a href="listening.json">listening.json</a> and play the WAV files in the audio folder.</p></noscript>
     </section>
     <section class="about wrap" id="about" aria-labelledby="about-title">
-      <div class="about-heading"><div class="eyebrow">READING THE DEMO</div><h2 id="about-title">A listening gallery,<br>with the context intact.</h2><a href="listening.json" download>Download the listening manifest <span aria-hidden="true">↗</span></a></div>
+      <div class="about-heading"><div class="eyebrow">READING THE DEMO</div><h2 id="about-title">Explore the audio,<br>compare the readings.</h2><a href="listening.json" download>Download the listening manifest <span aria-hidden="true">↗</span></a></div>
       <div class="about-details">
-        <details><summary>What is held constant?</summary><p>Each case preserves the same benchmark sample ID and raw input across systems. Native frontends are labeled: IndexTTS2 with TN on/off, CosyVoice3 and VoxCPM2 with TN off, FireRedTTS3 with WeText, and XTTS-v2 with its native frontend. The corrected CosyVoice3 rerun is used. Architectures, voices and native decoding configurations differ.</p></details>
-        <details><summary>What do the reference and CER mean?</summary><p>The reference is human-annotated. Forms inside <code>[A|B|C]</code> are alternatives; <code>[X]</code> is optional. Cached CER uses blind Qwen3-ASR, case-insensitive normalization and permitted readings. ASR can make mistakes; a zero CER is not a human certification of flawless speech. Listen to the original waveform when comparing pronunciation, completeness and voice quality.</p></details>
-        <details><summary>Are these the original audio files?</summary><p>Yes. All 180 WAV files are byte-for-byte copies from completed accuracy runs. No clipping, denoising, loudness adjustment, regeneration or time stretching was applied. The examples come from the previously defined 9,415-item diagnostic subset. Sample IDs, source paths, file hashes, selection rules and cached scores are included in <a href="metadata/provenance.json">the provenance record</a> and <a href="metadata/scores.csv" download>per-clip scores</a>.</p></details>
+        <details><summary>How are the systems compared?</summary><p>Each example uses the same raw input across systems. Text frontends are labeled: IndexTTS2 with TN on/off, CosyVoice3 and VoxCPM2 with TN off, FireRedTTS3 with WeText, and XTTS-v2 with its native frontend. Systems retain their native voices and decoding configurations.</p></details>
+        <details><summary>What do the reference and CER mean?</summary><p>The reference provides human-annotated accepted readings. Forms inside <code>[A|B|C]</code> are alternatives; <code>[X]</code> is optional. CER is calculated from Qwen3-ASR transcripts using case-insensitive normalization and accepted readings. Use the audio players to compare pronunciation, reading completeness and voice quality.</p></details>
+        <details><summary>How can I explore the audio?</summary><p>All 180 audio clips are original model outputs. Use Quick A/B to compare two systems on the same input, or download individual WAV files. Sample texts, accepted readings, ASR transcripts and audio paths are available in the <a href="listening.json">listening manifest</a>.</p></details>
       </div>
     </section>
   </main>
