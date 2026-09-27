@@ -1,50 +1,85 @@
-# Aemeath-TTS：20 条精选听测 Demo
+<div align="center">
 
-解压完整 ZIP 后，用桌面浏览器打开 **`index.html`**。不需要安装依赖、启动后端、联网或访问原始 NAS。请保留 `audio/`、`assets/` 与 HTML 的相对位置；不能只从压缩包里预览一个 HTML 文件。
+<img src="assets/Aemeath.png" width="120" alt="Aemeath 吉祥物">
 
-v2 更新：页面隐藏 Aemeath 系列及 acoustic control 的 CER；系统对比的 Quick A/B 默认选择 IndexTTS2（TN on）。移除顶部选例说明、两项指定的 FAQ 和页脚说明文字。原始样本、音频和归档评分保留。
+# Aemeath-TTS
 
-## 页面内容
+**Can One Model Normalize and Speak?**<br>
+Normalization-Aware Modeling for End-to-End Speech Synthesis
 
-- **System comparison：12 条。** 每条 11 个系统/变体，包括 Aemeath、Everbright、Polestar 的 position-only / position-feedback、Qwen3-TTS Base、IndexTTS2 TN 开/关、修复后的 CosyVoice3、VoxCPM2、FireRedTTS3 WeText 和 XTTS-v2。
-- **Stage & module comparisons：8 条。** 每条 6 个版本：Base、Aemeath、Everbright、匹配步数的 acoustic control、position-only、position-feedback。
-- 共 **20 个不重复样本、180 个原始 WAV**。各模型比较使用同一条 raw input，不把不同文本放在一起比较。
-- 支持样本搜索、前后切换、A→B 连续试听、展开原文、展开 ASR 转写。一个播放器开始时，其他播放器自动暂停。
-- `listening.json` 是独立的一个大 JSON，每条仅保留 ID、分组、标题、输入、参考文本和各版本的 ASR/WAV；没有 codec token。
+Jiecheng Liao<sup>1,2</sup>, Jialun Wu<sup>1</sup>, Zhebo Wang<sup>1,3</sup>, Jiawang Liu<sup>1</sup>, Chen Ye<sup>1</sup>, Guanjun Jiang<sup>1</sup>
 
-## 选例口径
+<sup>1</sup>阿里巴巴千问事业部 · <sup>2</sup>香港科技大学 · <sup>3</sup>浙江大学
 
-这是按要求挑选的**优势展示案例**，不是随机样本或全量指标的替代。
+**[🎧 在线试听](https://ffftuanxxx.github.io/Aemeath-TTS/)** · **[实验结果](#实验结果)** · **[开源进度](#开源进度)**
 
-系统对比从 287 个合格候选中，人工选取 12 个不同文本场景：Aemeath 四个版本的已有 CER 均为 0，每个展示的外部对照 CER 均大于 0。消融从 148 个合格候选中选 8 条：position-only 的已有 CER 为 0，且严格低于同条的其他五个版本。选例来自此前冻结的 9,415 条诊断集合，未重新筛选或变更原始 benchmark。
+[English](README.md) | 简体中文
 
-每个模型的原文、参考文本和 ASR 与缓存评分核对一致；所有复制文件的 SHA-256 与原 WAV 一致。精选 Aemeath 音频通过已有生成触顶/长静音标记检查及有限的 PCM 静音检查。**CER=0 不等于听感完美**，本包没有声称完成人工逐条听审。建议优先试听每条绿色框中的 position-only，再使用 A/B 按钮对比。
+</div>
 
-## 模型版本
+## 项目简介
 
-- Aemeath：全量 E4 SFT，step 92,420。
-- Everbright：GRPO coverage，step 8,000。
-- Polestar：reading-position，step 9,061；两种位置变体分别展示，不使用早期字符 CTC 或后续 10ep 版本。
-- Acoustic control：从同一 Everbright 权重进行相同预算的声学续训。
-- CosyVoice3 使用兼容修复后的全量正式重跑，未使用失效旧分支。
-- IndexTTS2 分别保留 TN on/off；FireRedTTS3 保留 WeText；其他前端配置在页面中标明。
+**Aemeath-TTS** 基于 Qwen3-TTS-1.7B，直接将原始文本转换为语音，无需外置文本归一化模型。面向数字、日期、单位、Markdown 和中英混合内容，同时改善读法准确性与朗读完整性。
 
-没有重新生成、裁剪、降噪、调音量、变速或更换外部模型参数。不同系统的音色、架构和原生解码配置并未完全控制，试听重点是原始文本的读法与完整性。
+- **Aemeath — 学会怎么读。** 让原始文本与归一化文本锚点共享声学目标，联合微调 Talker 和 MTP。
+- **Everbright — 把内容读完整。** 通过覆盖感知 GRPO 联合优化 16 个码本和 EOS，惩罚漏读、重复、过长静音与未正常结束。
+- **Polestar — 学会读到哪里。** 引入声学帧到文本阅读单元的位置监督，并探索可选的位置反馈；效果最好的变体仅在训练时使用位置监督。
 
-## 文件
+<p align="center">
+  <img src="assets/figures/overview.png" width="100%" alt="Aemeath-TTS 总体框架：锚定式声学适配、覆盖感知策略学习与阅读位置监督">
+</p>
 
-```text
-index.html                 离线页面
-styles.css / app.js        样式与交互
-data.js                    页面所需的样本数据
-audio/                     180 个 WAV，按“样本ID__模型.wav”命名
-assets/                    作者提供的三个图标
-listening.json             简洁听测清单
-metadata/scores.csv        每条原有 CER、编辑数、时长
-metadata/provenance.json   选例规则、原始来源、文件哈希
-metadata/validation.json   文件完整性与浏览器检查结果
+*论文方法总览。ASR、对齐与损失分支仅用于训练。*
+
+## 实验结果
+
+**Aemeath-TNBench 朗读准确率。** 基准包含约 1 万条人工标注的混合格式文本，支持多种合理读法。CER 基于非流式输出计算；各模型仅排除不支持的输入，实际计分样本数为 9,424–9,465。
+
+| 模型 | TN 前端 | CER (%) ↓ |
+| :--- | :--- | ---: |
+| TN-LLM → Qwen3-TTS Base | 学习式 LLM | 1.314 |
+| IndexTTS2 | 关闭 | 23.667 |
+| IndexTTS2 | 原生规则 | 10.644 |
+| CosyVoice3 | 关闭 | 8.590 |
+| VoxCPM2 | 关闭 | 11.266 |
+| FireRedTTS3 | WeText | 5.163 |
+| XTTS-v2 | 原生前端 | 10.552 |
+| Qwen3-TTS Base | 关闭 | 6.398 |
+| Aemeath | 无 | 4.293 |
+| Aemeath + Everbright | 无 | 3.379 |
+| + Polestar（position-feedback） | 无 | 3.591 |
+| **+ Polestar（position-only）** | **无** | **3.315** |
+
+**批量推理效率。** Batch size 为 16，以学习式 TN 级联方案为 1×，比较 RTF 的倒数与请求吞吐量，均为越高越好。
+
+<p align="center">
+  <img src="assets/figures/efficiency.png" width="460" alt="Batch-16 推理效率：相对 TN 级联，Aemeath 的 RTF 倒数为 1.34 倍、吞吐为 1.22 倍；Everbright 分别为 1.38 倍和 1.19 倍">
+</p>
+
+## Demo 与开源进度
+
+[在线 Demo](https://ffftuanxxx.github.io/Aemeath-TTS/#listening) 提供 **20 条精选样例、180 段音频**，涵盖系统对比与阶段消融。精选样例用于辅助理解上方基准结果；选例方式与本地试听方法见[试听说明](docs/listening_zh.md)。
+
+<a id="开源进度"></a>
+
+- [x] 在线试听与样例元数据
+- [ ] 训练和推理代码
+- [ ] 模型权重与完整 Aemeath-TNBench
+
+完整项目正在整理中，当前仓库提供试听 Demo。
+
+<details>
+<summary>引用</summary>
+
+```bibtex
+@misc{liao2026aemeathtts,
+  title  = {Aemeath-TTS: Can One Model Normalize and Speak? Normalization-Aware Modeling for End-to-End Speech Synthesis},
+  author = {Jiecheng Liao and Jialun Wu and Zhebo Wang and Jiawang Liu and Chen Ye and Guanjun Jiang},
+  year   = {2026},
+  url    = {https://github.com/ffftuanxxx/Aemeath-TTS}
+}
 ```
 
-如浏览器的本地文件策略限制播放，可在**自己的电脑**上进入解压后的文件夹，运行 `python -m http.server 8000 --bind 127.0.0.1`，再打开 `http://127.0.0.1:8000`。
+</details>
 
-默认页面为英文科研展示界面，原始中文/中英文本保持原样。参考里的 `[A|B|C]` 表示可选读法，`[X]` 表示可省略内容。输入仅在显示时还原序列化换行，没有额外做 TN。
+本项目基于 [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)。
